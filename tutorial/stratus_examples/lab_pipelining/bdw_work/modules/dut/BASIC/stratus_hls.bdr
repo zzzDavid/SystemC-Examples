@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<tool_log>
+	<phase>
+		<name>setup</name>
+		<path>bdr/setup.phase.bdr</path>
+	</phase>
+	<phase>
+		<name>elab</name>
+		<path>bdr/elab.phase.bdr</path>
+	</phase>
+	<phase>
+		<name>optim</name>
+		<path>bdr/optim.phase.bdr</path>
+	</phase>
+	<phase>
+		<name>sched</name>
+		<path>bdr/sched.phase.bdr</path>
+	</phase>
+	<phase>
+		<name>rtl</name>
+		<path>bdr/rtl.phase.bdr</path>
+	</phase>
+	<pid>18858</pid>
+</tool_log>

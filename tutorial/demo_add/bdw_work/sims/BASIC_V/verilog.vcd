@@ -1,0 +1,963 @@
+$date
+    Nov 20, 2020  12:05:47
+$end
+$version
+    TOOL:	ncsim(64)	15.20-s016
+$end
+$timescale
+    1 ps
+$end
+
+$scope module top $end
+
+$scope module dut0 $end
+$var reg       1 !    clk  $end
+$var reg       1 "    rst  $end
+$var wire      1 #    din_1_busy  $end
+$var reg       1 $    din_1_vld  $end
+$var reg       8 %    din_1_data [7:0] $end
+$var wire      1 &    din_2_busy  $end
+$var reg       1 '    din_2_vld  $end
+$var reg       8 (    din_2_data [7:0] $end
+$var reg       1 )    dout_busy  $end
+$var wire      1 *    dout_vld  $end
+$var wire      9 +    dout_data [8:0] $end
+
+$scope module dut0 $end
+$var wire      1 ,    clk  $end
+$var wire      1 -    rst  $end
+$var wire      1 .    din_1_vld  $end
+$var wire      8 /    din_1_data [7:0] $end
+$var wire      1 0    din_2_vld  $end
+$var wire      8 1    din_2_data [7:0] $end
+$var wire      1 2    dout_busy  $end
+$var wire      1 #    din_1_busy  $end
+$var wire      1 &    din_2_busy  $end
+$var wire      1 *    dout_vld  $end
+$var reg       9 3    dout_data [8:0] $end
+$var reg       1 4    dout_m_req_m_prev_trig_req  $end
+$var reg       1 5    dout_m_unacked_req  $end
+$var wire      1 6    dut_Xor_1Ux1U_1U_4_17_out1  $end
+$var wire      1 7    dut_Or_1Ux1U_1U_4_18_out1  $end
+$var reg       1 8    dut_N_Muxb_1_2_0_4_2_out1  $end
+$var wire      1 9    dut_And_1Ux1U_1U_4_13_out1  $end
+$var wire      1 :    dut_Not_1U_1U_4_12_out1  $end
+$var reg       1 ;    din_2_m_unvalidated_req  $end
+$var wire      1 <    dut_Or_1Ux1U_1U_4_10_out1  $end
+$var wire      1 =    dut_And_1Ux1U_1U_4_11_out1  $end
+$var reg       1 >    dut_N_Muxb_1_2_0_4_1_out1  $end
+$var wire      1 ?    dut_And_1Ux1U_1U_4_6_out1  $end
+$var wire      1 @    dut_Not_1U_1U_4_5_out1  $end
+$var reg       1 A    din_1_m_unvalidated_req  $end
+$var wire      1 B    dut_Or_1Ux1U_1U_4_3_out1  $end
+$var wire      1 C    dut_And_1Ux1U_1U_4_4_out1  $end
+$var reg       2 D    global_state_next [1:0] $end
+$var wire      1 E    dut_Not_1U_1U_4_7_out1  $end
+$var wire      1 F    dut_Not_1U_1U_4_14_out1  $end
+$var wire      1 G    dut_And_1Ux1U_1U_4_19_out1  $end
+$var wire      1 H    dut_Not_1U_1U_4_20_out1  $end
+$var reg       1 I    dout_m_req_m_trig_req  $end
+$var reg       1 J    din_2_m_busy_req_0  $end
+$var reg       1 K    din_1_m_busy_req_0  $end
+$var wire      9 L    dut_Add_8Ux8U_9U_4_22_out1 [8:0] $end
+$var reg       2 M    global_state [1:0] $end
+$var reg       1 N    stall0  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+1!
+0"
+1#
+0$
+b0 %
+1&
+0'
+b0 (
+1)
+0*
+bx +
+1,
+0-
+0.
+b0 /
+00
+b0 1
+12
+bx 3
+04
+05
+06
+07
+18
+09
+0:
+1;
+1<
+1=
+1>
+0?
+0@
+1A
+1B
+1C
+b1 D
+1E
+1F
+0G
+1H
+0I
+1J
+1K
+bx L
+b0 M
+0N
+$end
+#2500
+0!
+0,
+#5000
+1!
+1,
+0)
+02
+#7500
+0!
+0,
+#10000
+1!
+1,
+1"
+1-
+#12500
+0!
+0,
+#15000
+1!
+1,
+b1 M
+0K
+1N
+b10 D
+0>
+0C
+1@
+0#
+1$
+1.
+1?
+0E
+1>
+0N
+#17500
+0!
+0,
+#20000
+1!
+1,
+b10 M
+b0 3
+1K
+0J
+1N
+b11 D
+08
+0=
+1C
+b0 L
+b0 +
+0@
+1#
+1:
+0&
+0?
+1E
+1'
+0$
+0.
+10
+19
+0F
+18
+0N
+#22500
+0!
+0,
+#25000
+1!
+1,
+b11 M
+1J
+1I
+b1 D
+0H
+16
+1=
+0:
+1&
+09
+1F
+17
+1*
+b1 %
+1$
+0'
+00
+1.
+b1 /
+#27500
+0!
+0,
+#30000
+1!
+1,
+14
+b1 M
+0K
+1N
+b10 D
+0C
+06
+1@
+0#
+1?
+0E
+0N
+07
+0*
+#32500
+0!
+0,
+#35000
+1!
+1,
+b10 M
+b1 3
+1K
+0J
+1N
+b11 D
+08
+0=
+1C
+b1 L
+b1 +
+0@
+1#
+1:
+0&
+0?
+1E
+b1 (
+1'
+0$
+0.
+10
+b1 1
+19
+0F
+18
+0N
+b10 L
+#37500
+0!
+0,
+#40000
+1!
+1,
+b11 M
+b10 3
+1J
+0I
+b1 D
+1H
+16
+1=
+b11 L
+b10 +
+0:
+1&
+09
+1F
+17
+1*
+b10 %
+1$
+0'
+00
+1.
+b10 /
+#42500
+0!
+0,
+#45000
+1!
+1,
+04
+b1 M
+0K
+1N
+b10 D
+0C
+06
+1@
+0#
+1?
+0E
+0N
+07
+0*
+#47500
+0!
+0,
+#50000
+1!
+1,
+b10 M
+1K
+0J
+1N
+b11 D
+08
+0=
+1C
+0@
+1#
+1:
+0&
+0?
+1E
+b10 (
+1'
+0$
+0.
+10
+b10 1
+19
+0F
+18
+0N
+b100 L
+#52500
+0!
+0,
+#55000
+1!
+1,
+b11 M
+b100 3
+1J
+1I
+b1 D
+0H
+16
+1=
+b110 L
+b100 +
+0:
+1&
+09
+1F
+17
+1*
+b11 %
+1$
+0'
+00
+1.
+b11 /
+#57500
+0!
+0,
+#60000
+1!
+1,
+14
+b1 M
+0K
+1N
+b10 D
+0C
+06
+1@
+0#
+1?
+0E
+0N
+07
+0*
+#62500
+0!
+0,
+#65000
+1!
+1,
+b10 M
+b11 3
+1K
+0J
+1N
+b11 D
+08
+0=
+1C
+b101 L
+b11 +
+0@
+1#
+1:
+0&
+0?
+1E
+b11 (
+1'
+0$
+0.
+10
+b11 1
+19
+0F
+18
+0N
+b110 L
+#67500
+0!
+0,
+#70000
+1!
+1,
+b11 M
+b110 3
+1J
+0I
+b1 D
+1H
+16
+1=
+b1001 L
+b110 +
+0:
+1&
+09
+1F
+17
+1*
+b100 %
+1$
+0'
+00
+1.
+b100 /
+#72500
+0!
+0,
+#75000
+1!
+1,
+04
+b1 M
+0K
+1N
+b10 D
+0C
+06
+1@
+0#
+1?
+0E
+0N
+07
+0*
+#77500
+0!
+0,
+#80000
+1!
+1,
+b10 M
+b100 3
+1K
+0J
+1N
+b11 D
+08
+0=
+1C
+b111 L
+b100 +
+0@
+1#
+1:
+0&
+0?
+1E
+b100 (
+1'
+0$
+0.
+10
+b100 1
+19
+0F
+18
+0N
+b1000 L
+#82500
+0!
+0,
+#85000
+1!
+1,
+b11 M
+b1000 3
+1J
+1I
+b1 D
+0H
+16
+1=
+b1100 L
+b1000 +
+0:
+1&
+09
+1F
+17
+1*
+b101 %
+1$
+0'
+00
+1.
+b101 /
+#87500
+0!
+0,
+#90000
+1!
+1,
+14
+b1 M
+0K
+1N
+b10 D
+0C
+06
+1@
+0#
+1?
+0E
+0N
+07
+0*
+#92500
+0!
+0,
+#95000
+1!
+1,
+b10 M
+b101 3
+1K
+0J
+1N
+b11 D
+08
+0=
+1C
+b1001 L
+b101 +
+0@
+1#
+1:
+0&
+0?
+1E
+b101 (
+1'
+0$
+0.
+10
+b101 1
+19
+0F
+18
+0N
+b1010 L
+#97500
+0!
+0,
+#100000
+1!
+1,
+b11 M
+b1010 3
+1J
+0I
+b1 D
+1H
+16
+1=
+b1111 L
+b1010 +
+0:
+1&
+09
+1F
+17
+1*
+b110 %
+1$
+0'
+00
+1.
+b110 /
+#102500
+0!
+0,
+#105000
+1!
+1,
+04
+b1 M
+0K
+1N
+b10 D
+0C
+06
+1@
+0#
+1?
+0E
+0N
+07
+0*
+#107500
+0!
+0,
+#110000
+1!
+1,
+b10 M
+b110 3
+1K
+0J
+1N
+b11 D
+08
+0=
+1C
+b1011 L
+b110 +
+0@
+1#
+1:
+0&
+0?
+1E
+b110 (
+1'
+0$
+0.
+10
+b110 1
+19
+0F
+18
+0N
+b1100 L
+#112500
+0!
+0,
+#115000
+1!
+1,
+b11 M
+b1100 3
+1J
+1I
+b1 D
+0H
+16
+1=
+b10010 L
+b1100 +
+0:
+1&
+09
+1F
+17
+1*
+b111 %
+1$
+0'
+00
+1.
+b111 /
+#117500
+0!
+0,
+#120000
+1!
+1,
+14
+b1 M
+0K
+1N
+b10 D
+0C
+06
+1@
+0#
+1?
+0E
+0N
+07
+0*
+#122500
+0!
+0,
+#125000
+1!
+1,
+b10 M
+b111 3
+1K
+0J
+1N
+b11 D
+08
+0=
+1C
+b1101 L
+b111 +
+0@
+1#
+1:
+0&
+0?
+1E
+b111 (
+1'
+0$
+0.
+10
+b111 1
+19
+0F
+18
+0N
+b1110 L
+#127500
+0!
+0,
+#130000
+1!
+1,
+b11 M
+b1110 3
+1J
+0I
+b1 D
+1H
+16
+1=
+b10101 L
+b1110 +
+0:
+1&
+09
+1F
+17
+1*
+b1000 %
+1$
+0'
+00
+1.
+b1000 /
+#132500
+0!
+0,
+#135000
+1!
+1,
+04
+b1 M
+0K
+1N
+b10 D
+0C
+06
+1@
+0#
+1?
+0E
+0N
+07
+0*
+#137500
+0!
+0,
+#140000
+1!
+1,
+b10 M
+b1000 3
+1K
+0J
+1N
+b11 D
+08
+0=
+1C
+b1111 L
+b1000 +
+0@
+1#
+1:
+0&
+0?
+1E
+b1000 (
+1'
+0$
+0.
+10
+b1000 1
+19
+0F
+18
+0N
+b10000 L
+#142500
+0!
+0,
+#145000
+1!
+1,
+b11 M
+b10000 3
+1J
+1I
+b1 D
+0H
+16
+1=
+b11000 L
+b10000 +
+0:
+1&
+09
+1F
+17
+1*
+b1001 %
+1$
+0'
+00
+1.
+b1001 /
+#147500
+0!
+0,
+#150000
+1!
+1,
+14
+b1 M
+0K
+1N
+b10 D
+0C
+06
+1@
+0#
+1?
+0E
+0N
+07
+0*
+#152500
+0!
+0,
+#155000
+1!
+1,
+b10 M
+b1001 3
+1K
+0J
+1N
+b11 D
+08
+0=
+1C
+b10001 L
+b1001 +
+0@
+1#
+1:
+0&
+0?
+1E
+b1001 (
+1'
+0$
+0.
+10
+b1001 1
+19
+0F
+18
+0N
+b10010 L
+#157500
+0!
+0,
+#160000
+1!
+1,
+b11 M
+b10010 3
+1J
+0I
+b1 D
+1H
+16
+1=
+b11011 L
+b10010 +
+0:
+1&
+09
+1F
+17
+1*
+0'
+00
+#162500
+0!
+0,
+#165000
+1!
+1,
+04
+b1 M
+0K
+1N
+b10 D
+0>
+0C
+06
+1@
+0#
+07
+0*
+1)
+12
+#165100

@@ -1,0 +1,84 @@
+Operating system ,
+ GCC 4.8.5,
+ and Cadence NC/IUS 15.20
+are a supported combination.
+irun(64): 15.20-s016: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+file: bdw_work/sims/top_II2_V.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/dut_cosim.v
+	module worklib.dut_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/dut/II2/dut_rtl.v
+	module worklib.dut:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/dut/II2/v_rtl/dut_Div_64Ux2U_32U_4.v
+	module worklib.dut_Div_64Ux2U_32U_4:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.dut:v <0x75fc18b4>
+			streams: 100, words: 28313
+		worklib.dut_Div_64Ux2U_32U_4:v <0x107532c1>
+			streams: 175, words: 44795
+		worklib.top:v <0x0aab470b>
+			streams: 121, words: 100998
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 4       4
+		Registers:             219     219
+		Scalar wires:          723       -
+		Vectored wires:         26       -
+		Always blocks:          97      97
+		Initial blocks:          7       7
+		Cont. assignments:     128     734
+		Pseudo assignments:     14      14
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /opt/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+
+             SystemC 2.3.0-ASI --- Feb  9 2017 16:02:52
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+NOTE: Cadence Design Systems Hub Simulation Platform : version 17.20-p100
+Latency for sample 0 is 5
+Latency for sample 1 is 5
+Latency for sample 2 is 5
+Latency for sample 3 is 5
+Latency for sample 4 is 5
+Latency for sample 5 is 5
+Latency for sample 6 is 5
+Latency for sample 7 is 5
+Latency for sample 8 is 5
+Latency for sample 9 is 5
+Latency for sample 10 is 5
+Latency for sample 11 is 5
+Latency for sample 12 is 5
+Latency for sample 13 is 5
+Latency for sample 14 is 5
+Latency for sample 15 is 5
+Testbench sink thread read 16 values. Average latency 5.
+Simulation stopped via $stop(1) at time 400100 PS + 0
+./bdw_work/sims/top_II2_V.v:70 		#100 $stop;
+ncsim> quit
+****************************************
+Thu Nov 19 00:45:54 EST 2020
+Performing Simulation Results Comparison
+for II2_V Simulation...
+  II2_V: SIMULATION PASSED
+****************************************

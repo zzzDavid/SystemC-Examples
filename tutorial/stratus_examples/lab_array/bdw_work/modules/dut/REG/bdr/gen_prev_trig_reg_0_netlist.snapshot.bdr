@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<netlist>
+	<module_name>gen_prev_trig_reg_0</module_name>
+	<thread>
+		<name>MUX_N15</name>
+		<async/>
+		<lhs>
+			<name>dout_m_req_m_prev_trig_req</name>
+		</lhs>
+		<rhs>
+			<name>dout_m_req_m_trig_req</name>
+		</rhs>
+		<mux_area>2.8617</mux_area>
+		<mux_delay>0.0000</mux_delay>
+		<control_delay>0.0000</control_delay>
+	</thread>
+	<signal>
+		<name>dout_m_req_m_prev_trig_req</name>
+		<source_loc>5632</source_loc>
+		<datatype W="1">bool</datatype>
+		<area>5.4720</area>
+		<delay>0.1140</delay>
+		<setup_time>0.0655</setup_time>
+	</signal>
+</netlist>

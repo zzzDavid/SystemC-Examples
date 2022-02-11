@@ -1,0 +1,12 @@
+21398
+21421
+zhang-x1.ece.cornell.edu
+bdw_work/trace/hls.dut.BASIC.trace
+2
+0
+0
+0
+1605588245
+1605588288
+make CWBExec=1 hls_dut_BASIC
+

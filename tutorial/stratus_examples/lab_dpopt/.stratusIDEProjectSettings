@@ -1,0 +1,11 @@
+[tree]
+Selection=lab_dpopt, Sim Configs
+OpenTopLevel=Modules, Sim Configs
+OpenModules=dut
+OpenLibTypes=Resources
+OpenLibs=@Invalid()
+
+[analysis]
+SimSummary\lab_dpopt%3A%3ASim%20Configs\context=lab_dpopt::Sim Configs
+SimSummary\lab_dpopt%3A%3ASim%20Configs\openNodes=BASIC_V, DPO_AUTO_OP_V, DPO_AUTO_EXPR_V, DPO_INLINE_V
+SimSummary\lab_dpopt%3A%3ASim%20Configs\colWidths=146, 43, 44, 111, 40, 44, 48, 0, 48, 54, 155, 56, 797

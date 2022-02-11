@@ -1,0 +1,9 @@
+[tree]
+Selection=lab_io_config, Sim Configs, B
+OpenTopLevel=Modules, Sim Configs
+OpenModules=dut
+OpenLibTypes=Resources
+OpenLibs=@Invalid()
+
+[analysis]
+%2B\NIL\context=(nil)

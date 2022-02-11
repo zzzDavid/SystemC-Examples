@@ -1,0 +1,4 @@
+bdw_work/sims/top_FLAT_UNROLL_ALL_V.v
+bdw_work/wrappers/dut_cosim.v
+bdw_work/modules/dut/FLAT_UNROLL_ALL/dut_rtl.v
+

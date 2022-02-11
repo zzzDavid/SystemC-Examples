@@ -1,0 +1,31 @@
+[tree]
+Selection=lab_loop_unrolling, Modules, dut, UNROLL_FILL
+OpenTopLevel=Modules, Sim Configs
+OpenModules=dut
+OpenLibTypes=Resources
+OpenLibs=@Invalid()
+
+[analysis]
+HLSConfig\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\context=lab_loop_unrolling::Modules::dut::UNROLL_FILL
+HLSConfig\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\SplitterPos=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x2\0\0\x2\xcc\xff\xff\xff\xff\x1\0\0\0\x1\x1\0\0\0\x2)
+Index\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\accessAtOptimize=true
+Index\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\accessAtSchedule=true
+Index\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\accessAtRTL=true
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\context=lab_loop_unrolling::Modules::dut::UNROLL_FILL
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\header=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\x1\0\0\0\x2\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x3\b\0\0\0\b\x1\x1\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x81\0\0\0\0\0\0\0\b\0\0\0\xbd\0\0\0\x1\0\0\0\0\0\0\0/\0\0\0\x1\0\0\0\0\0\0\0.\0\0\0\x1\0\0\0\0\0\0\0W\0\0\0\x1\0\0\0\0\0\0\0\x39\0\0\0\x1\0\0\0\0\0\0\0\x30\0\0\0\x1\0\0\0\0\0\0\0\x33\0\0\0\x1\0\0\0\0\0\0\0\xfb\0\0\0\x1\0\0\0\0)
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\colWidths=189, 47, 46, 87, 57, 48, 51, 251
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\treeExpandedItems=@Invalid()
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\scrollPos=0
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\filter\filterVisible=false
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\filter\collapsed=false
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\filter\filterString=*
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\filter\incEx=false
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\filter\areaVal=0
+Registers\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\filter\delVal=0
+HLSConfig\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\shownTabs=Dashboard
+HLSConfig\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\tornOffTabs=@Invalid()
+HLSConfig\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\splitTabs=Registers
+HLSConfig\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\selTab=Dashboard
+HLSConfig\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\selSplitTab=0
+HLSConfig\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\TopSplitterPos=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x2\0\0\x3 \0\0\x3 \x1\0\0\0\b\x1\0\0\0\x1)
+HLSConfig\lab_loop_unrolling%3A%3AModules%3A%3Adut%3A%3AUNROLL_FILL\TopSplitOrientation=false

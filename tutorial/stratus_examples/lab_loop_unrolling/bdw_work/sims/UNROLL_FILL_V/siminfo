@@ -1,0 +1,5 @@
+bdw_work/sims/top_UNROLL_FILL_V.v
+bdw_work/wrappers/dut_cosim.v
+bdw_work/modules/dut/UNROLL_FILL/dut_rtl.v
+bdw_work/modules/dut/UNROLL_FILL/v_rtl/dut_RAM_8X8_1.v
+

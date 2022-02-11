@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<netlist>
+	<module_name>gen_next_trig_reg_0</module_name>
+	<signal>
+		<name>MUX_N14</name>
+		<async/>
+	</signal>
+	<thread>
+		<name>MUX_N14</name>
+		<async/>
+		<lhs>
+			<name>MUX_N14</name>
+		</lhs>
+		<rhs>
+			<name>dout_m_req_m_trig_req</name>
+		</rhs>
+		<mux_area>0.0000</mux_area>
+		<mux_delay>0.0000</mux_delay>
+		<control_delay>0.0000</control_delay>
+	</thread>
+	<signal>
+		<name>dut_Not_1U_1U_4_12_out1</name>
+		<source_loc>9910</source_loc>
+		<async/>
+	</signal>
+	<module_inst>
+		<name>dut_Not_1U_1U_4</name>
+		<instance_name>dut_Not_1U_1U_4_12</instance_name>
+		<port_conn>in1,MUX_N14</port_conn>
+		<port_conn>out1,dut_Not_1U_1U_4_12_out1</port_conn>
+		<source_loc>5550</source_loc>
+	</module_inst>
+</netlist>

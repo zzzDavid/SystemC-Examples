@@ -1,0 +1,257 @@
+$date
+     Nov 16, 2020       23:43:45
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Feb  9 2017 16:02:52
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  system.dut_wrapper.dut.clk       $end
+$var wire    1  aab  system.dut_wrapper.dut.rst       $end
+$var wire    1  aac  system.dut_wrapper.dut.din.busy       $end
+$var wire    1  aad  system.dut_wrapper.dut.din.vld       $end
+$var wire    8  aae  system.dut_wrapper.dut.din.data [7:0]  $end
+$var wire    1  aaf  system.dut_wrapper.dut.dout.busy       $end
+$var wire    1  aag  system.dut_wrapper.dut.dout.vld       $end
+$var wire   11  aah  system.dut_wrapper.dut.dout.data [10:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaa
+0aab
+1aac
+0aad
+b0 aae
+1aaf
+0aag
+b0 aah
+$end
+
+#2500
+0aaa
+
+#5000
+1aaa
+0aaf
+
+#7500
+0aaa
+
+#10000
+1aaa
+1aab
+
+#12500
+0aaa
+
+#15000
+1aaa
+0aac
+1aad
+
+#17500
+0aaa
+
+#20000
+1aaa
+1aac
+b1 aae
+1aag
+
+#22500
+0aaa
+
+#25000
+1aaa
+0aac
+0aag
+
+#27500
+0aaa
+
+#30000
+1aaa
+1aac
+b10 aae
+1aag
+b111 aah
+
+#32500
+0aaa
+
+#35000
+1aaa
+0aac
+0aag
+
+#37500
+0aaa
+
+#40000
+1aaa
+1aac
+b11 aae
+1aag
+b1110 aah
+
+#42500
+0aaa
+
+#45000
+1aaa
+0aac
+0aag
+
+#47500
+0aaa
+
+#50000
+1aaa
+1aac
+b100 aae
+1aag
+b10101 aah
+
+#52500
+0aaa
+
+#55000
+1aaa
+0aac
+0aag
+
+#57500
+0aaa
+
+#60000
+1aaa
+1aac
+b101 aae
+1aag
+b11100 aah
+
+#62500
+0aaa
+
+#65000
+1aaa
+0aac
+0aag
+
+#67500
+0aaa
+
+#70000
+1aaa
+1aac
+b110 aae
+1aag
+b100011 aah
+
+#72500
+0aaa
+
+#75000
+1aaa
+0aac
+0aag
+
+#77500
+0aaa
+
+#80000
+1aaa
+1aac
+b111 aae
+1aag
+b101010 aah
+
+#82500
+0aaa
+
+#85000
+1aaa
+0aac
+0aag
+
+#87500
+0aaa
+
+#90000
+1aaa
+1aac
+b1000 aae
+1aag
+b110001 aah
+
+#92500
+0aaa
+
+#95000
+1aaa
+0aac
+0aag
+
+#97500
+0aaa
+
+#100000
+1aaa
+1aac
+b1001 aae
+1aag
+b111000 aah
+
+#102500
+0aaa
+
+#105000
+1aaa
+0aac
+0aag
+
+#107500
+0aaa
+
+#110000
+1aaa
+1aac
+b11111111 aae
+1aag
+b111111 aah
+
+#112500
+0aaa
+
+#115000
+1aaa
+0aac
+0aag
+
+#117500
+0aaa
+
+#120000
+1aaa
+1aac
+0aad
+1aag
+b11011111001 aah
+
+#122500
+0aaa
+
+#125000
+1aaa
+1aaf
+

@@ -1,0 +1,11 @@
+[tree]
+Selection=lab_array, Libraries, Memories, memlib, RAM_64x8
+OpenTopLevel=Modules, Sim Configs, Libraries
+OpenModules=dut
+OpenLibTypes=Memories, Resources
+OpenLibs=memlib
+
+[analysis]
+SimSummary\lab_array%3A%3ASim%20Configs\context=lab_array::Sim Configs
+SimSummary\lab_array%3A%3ASim%20Configs\openNodes=B, FLAT_V, REG_V, MEM_V
+SimSummary\lab_array%3A%3ASim%20Configs\colWidths=69, 43, 44, 63, 40, 37, 48, 0, 48, 54, 150, 56, 934

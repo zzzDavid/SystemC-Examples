@@ -1,0 +1,27 @@
+
+             SystemC 2.3.0-ASI --- Feb  9 2017 16:02:52
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+NOTE: Cadence Design Systems Hub Simulation Platform : version 17.20-p100
+Note: VCD trace timescale unit is set by user to 1.000000e-12 sec.
+Latency for sample 0 is 5
+Latency for sample 1 is 5
+Latency for sample 2 is 5
+Latency for sample 3 is 5
+Latency for sample 4 is 5
+Latency for sample 5 is 5
+Latency for sample 6 is 5
+Latency for sample 7 is 5
+Latency for sample 8 is 5
+Latency for sample 9 is 5
+Latency for sample 10 is 5
+Average latency 5.
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+****************************************
+Tue Nov 17 14:52:27 EST 2020
+Performing Simulation Results Comparison
+for B Simulation...
+  B: SIMULATION PASSED
+****************************************

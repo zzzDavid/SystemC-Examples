@@ -1,0 +1,9 @@
+[tree]
+Selection=lab_pipelining, Sim Configs, II3_V
+OpenTopLevel=Modules, Sim Configs
+OpenModules=dut
+OpenLibTypes=Resources
+OpenLibs=@Invalid()
+
+[analysis]
+%2B\NIL\context=(nil)

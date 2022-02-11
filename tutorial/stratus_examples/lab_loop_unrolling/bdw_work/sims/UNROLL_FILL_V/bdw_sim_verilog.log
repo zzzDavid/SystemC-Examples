@@ -1,0 +1,79 @@
+irun(64): 15.20-s016: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s016: Started on Nov 17, 2020 at 22:53:14 EST
+irun
+	+nc64bit
+	+incdir+/opt/cadence/STRATUS172/tools.lnx86/stratus/lib
+	+incdir+bdw_work/wrappers
+	+access+rw
+	+loadpli1=/opt/cadence/STRATUS172/tools.lnx86/stratus/lib/64bit/ncvlog_ssl:ssl_bootstrap
+	-f bdw_work/sims/UNROLL_FILL_V/siminfo
+		bdw_work/sims/top_UNROLL_FILL_V.v
+		bdw_work/wrappers/dut_cosim.v
+		bdw_work/modules/dut/UNROLL_FILL/dut_rtl.v
+		bdw_work/modules/dut/UNROLL_FILL/v_rtl/dut_RAM_8X8_1.v
+	+ncinput+bdw_work/sims/UNROLL_FILL_V/ncverilog.do
+	+nclibdirname+bdw_work/sims/UNROLL_FILL_V
+	+libext+.v
+	+define+ioConfig
+	+define+BDW_RTL_dut_UNROLL_FILL
+	+nowarn+LIBNOU
+	+hubSetOption+libdef=bdw_work/sims/UNROLL_FILL_V/sim_UNROLL_FILL_V.so
+	+hubSetOption+bdr=bdw_work/sims/UNROLL_FILL_V/sim.bdr
+	-l bdw_work/sims/UNROLL_FILL_V/bdw_sim_verilog.log
+
+   User defined plus("+") options:
+	+hubSetOption+libdef=bdw_work/sims/UNROLL_FILL_V/sim_UNROLL_FILL_V.so
+	+hubSetOption+bdr=bdw_work/sims/UNROLL_FILL_V/sim.bdr
+
+file: bdw_work/sims/top_UNROLL_FILL_V.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/dut_cosim.v
+	module worklib.dut_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/dut/UNROLL_FILL/dut_rtl.v
+	module worklib.dut:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/dut/UNROLL_FILL/v_rtl/dut_RAM_8X8_1.v
+	module worklib.dut_RAM_8X8_1:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.dut:v <0x5275bb78>
+			streams:  42, words: 21014
+		worklib.dut_RAM_8X8_1:v <0x36c8d65d>
+			streams:   2, words:   702
+		worklib.top:v <0x0b592271>
+			streams: 114, words: 98503
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 4       4
+		Registers:             148     148
+		Scalar wires:           19       -
+		Vectored wires:          9       -
+		Always blocks:          32      32
+		Initial blocks:          7       7
+		Cont. assignments:       9      17
+		Pseudo assignments:      9       9
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /opt/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+NOTE: Cadence Design Systems Hub Simulation Platform : version 17.20-p100
+Simulation stopped via $stop(1) at time 7425100 PS + 0
+./bdw_work/sims/top_UNROLL_FILL_V.v:63 		#100 $stop;
+ncsim> quit
+TOOL:	irun(64)	15.20-s016: Exiting on Nov 17, 2020 at 22:53:16 EST  (total: 00:00:02)

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by Qt Creator 2.5.1, 2020-11-17T13:51:29. -->
+<qtcreator>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNAAAAAEAAADKAC8AdwBvAHIAawAvAHMAaABhAHIAZQBkAC8AdQBzAGUAcgBzAC8AcABoAGQALwBqAGwAMwA5ADUAMgAvAHQAdQB0AG8AcgBpAGEAbABzAC8AcwB5AHMAdABlAG0AYwAvAHMAdAByAGEAdAB1AHMAXwBlAHgAYQBtAHAAbABlAHMALwBsAGEAYgBfAGYAaQByAHMAdABfAHQAcgBpAHYAaQBhAGwAXwBkAGUAcwBpAGcAbgAvAHAAcgBvAGoAZQBjAHQALgB0AGMAbAAAAAwAAAAAGAAAAAEAAAAeAAAAAAAAABsAAAALAAAAAAAAAAEAAADKAC8AdwBvAHIAawAvAHMAaABhAHIAZQBkAC8AdQBzAGUAcgBzAC8AcABoAGQALwBqAGwAMwA5ADUAMgAvAHQAdQB0AG8AcgBpAGEAbABzAC8AcwB5AHMAdABlAG0AYwAvAHMAdAByAGEAdAB1AHMAXwBlAHgAYQBtAHAAbABlAHMALwBsAGEAYgBfAGYAaQByAHMAdABfAHQAcgBpAHYAaQBhAGwAXwBkAGUAcwBpAGcAbgAvAHAAcgBvAGoAZQBjAHQALgB0AGMAbAAAABYAcAByAG8AagBlAGMAdAAuAHQAYwBsAAAAFENvcmUuUGxhaW5UZXh0RWRpdG9yAAABJwAAAA1jdXJyZW50ZWRpdG9yAAAAygAvAHcAbwByAGsALwBzAGgAYQByAGUAZAAvAHUAcwBlAHIAcwAvAHAAaABkAC8AagBsADMAOQA1ADIALwB0AHUAdABvAHIAaQBhAGwAcwAvAHMAeQBzAHQAZQBtAGMALwBzAHQAcgBhAHQAdQBzAF8AZQB4AGEAbQBwAGwAZQBzAC8AbABhAGIAXwBmAGkAcgBzAHQAXwB0AHIAaQB2AGkAYQBsAF8AZABlAHMAaQBnAG4ALwBwAHIAbwBqAGUAYwB0AC4AdABjAGwAAAAoAEMAbwByAGUALgBQAGwAYQBpAG4AVABlAHgAdABFAGQAaQB0AG8AcgAAABgAAAABAAAAHgAAAAAAAAAbAAAACwAAAAA=</value>
+ </data>
+ <data>
+  <variable>OpenEditors</variable>
+  <value type="int">1</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Welcome</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-DebuggerToolTips</variable>
+  <value type="QString"></value>
+ </data>
+ <data>
+  <variable>value-DefaultFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">session</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-Watchers</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">DebuggerToolTips</value>
+   <value type="QString">DefaultFormats</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">Watchers</value>
+  </valuelist>
+ </data>
+</qtcreator>

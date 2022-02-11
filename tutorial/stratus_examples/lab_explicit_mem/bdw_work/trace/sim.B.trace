@@ -1,0 +1,72 @@
+WARNING: This script is running on an unsupported platform: 
+CentOS Linux release 7.8.2003 (Core)
+
+Created makefile: Makefile.prj
+Generating dependencies for tb.cc
+Generating dependencies for system.cc
+Generating dependencies for main.cc
+Generating dependencies for dut.cc 
+/opt/cadence/STRATUS172/bin/bdw_wrapgen -project project.tcl -module dut "-Ibdw_work/wrappers  -Imemlib/c_parts -g -DCLOCK_PERIOD=5.0 "
+/opt/cadence/STRATUS172/bin/bdw_tracegen -module dut -vcd 
+/opt/cadence/STRATUS172/bin/bdw_shell /opt/cadence/STRATUS172/share/stratus/tcl/bdw_siminfo.tcl project.tcl B
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++  -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0   -o bdw_work/objs/dut.o  bdw_work/wrappers/dut_wrap.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -TP -o bdw_work/objs/main.o -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 main.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -TP -o bdw_work/objs/system.o -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 system.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -TP -o bdw_work/objs/tb.o -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 tb.cc
+/opt/cadence/STRATUS172/bin/bdw_makegen  -scsim builtin -lib memlib -o bdw_work/libs/memlib/Makefile -module  -cynthconfig   
+WARNING: This script is running on an unsupported platform: 
+CentOS Linux release 7.8.2003 (Core)
+
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -TP -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 -o bdw_work/libesc/esc_utils.o /opt/cadence/STRATUS172/share/stratus/source/esc_utils.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -TP -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 -o bdw_work/libesc/esc_hub.o /opt/cadence/STRATUS172/share/stratus/source/esc_hub.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -TP -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 -o bdw_work/libesc/esc_cosim.o /opt/cadence/STRATUS172/share/stratus/source/esc_cosim.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -TP -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 -o bdw_work/libesc/esc_type.o /opt/cadence/STRATUS172/share/stratus/source/esc_type.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -TP -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 -o bdw_work/libesc/esc_elab.o /opt/cadence/STRATUS172/share/stratus/source/esc_elab.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -TP -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 -o bdw_work/libesc/esc_cleanup.o /opt/cadence/STRATUS172/share/stratus/source/esc_cleanup.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -TP -I./ -Ibdw_work/wrappers  -Imemlib/c_parts  -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 -o bdw_work/libesc/esc_watcher.o /opt/cadence/STRATUS172/share/stratus/source/esc_watcher.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.1/bin/ar r  bdw_work/libesc/libesc.a bdw_work/libesc/esc_utils.o bdw_work/libesc/esc_hub.o bdw_work/libesc/esc_cosim.o bdw_work/libesc/esc_type.o bdw_work/libesc/esc_elab.o bdw_work/libesc/esc_cleanup.o bdw_work/libesc/esc_watcher.o
+ar: creating bdw_work/libesc/libesc.a
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++  -I../../..//memlib/c_parts  -c -I. -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 -DBDW_RT=1 -DBDW_HUB=1  -o objs/RAM_64x8.o  ../../..//memlib/c_parts/RAM_64x8.cc
+ar r objs/libmemlib.a objs/RAM_64x8.o 
+ar: creating objs/libmemlib.a
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -Wl,--export-dynamic   \
+        -Wl,-rpath,/opt/cadence/STRATUS172/tools.lnx86/stratus/lib/64bit \
+        -Wl,-rpath,/opt/cadence/STRATUS172/tools.lnx86/lib/64bit \
+        -Wl,-rpath,/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/lib-linux64 \
+	-o bdw_work/sims/B/sim_B \
+	bdw_work/objs/dut.o bdw_work/objs/main.o bdw_work/objs/system.o bdw_work/objs/tb.o \
+	 \
+	 \
+        bdw_work/libesc/libesc.a \
+	bdw_work/libs/memlib/objs/libmemlib.a \
+	-L /opt/cadence/STRATUS172/tools.lnx86/lib/64bit -L /opt/cadence/STRATUS172/tools.lnx86/stratus/lib/64bit  -L /opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/lib-linux64 -lscv -lsystemc  -lhubexec -lhub  -lbdw_st 
+Executing simulation: bdw_work/sims/B/sim_B  
+
+
+             SystemC 2.3.0-ASI --- Feb  9 2017 16:02:52
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+NOTE: Cadence Design Systems Hub Simulation Platform : version 17.20-p100
+Note: VCD trace timescale unit is set by user to 1.000000e-12 sec.
+Latency for sample 0 is 5
+Latency for sample 1 is 5
+Latency for sample 2 is 5
+Latency for sample 3 is 5
+Latency for sample 4 is 5
+Latency for sample 5 is 5
+Latency for sample 6 is 5
+Latency for sample 7 is 5
+Latency for sample 8 is 5
+Latency for sample 9 is 5
+Latency for sample 10 is 5
+Average latency 5.
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+BDW_SIM_CONFIG_DIR=bdw_work/sims/B make cmp_result 2>&1 | tee -a bdw_work/sims/B/bdw_sim.log
+****************************************
+Tue Nov 17 14:52:27 EST 2020
+Performing Simulation Results Comparison
+for B Simulation...
+  B: SIMULATION PASSED
+****************************************

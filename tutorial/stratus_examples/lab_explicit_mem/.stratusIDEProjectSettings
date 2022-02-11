@@ -1,0 +1,23 @@
+[tree]
+Selection=lab_explicit_mem, Modules, dut, BASIC
+OpenTopLevel=Modules, Sim Configs, Libraries
+OpenModules=dut
+OpenLibTypes=Memories, Resources
+OpenLibs=memlib
+
+[analysis]
+HLSConfig\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\context=lab_explicit_mem::Modules::dut::BASIC
+HLSConfig\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\SplitterPos=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x2\0\0\x2\xcc\xff\xff\xff\xff\x1\0\0\0\x1\x1\0\0\0\x2)
+Index\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\accessAtOptimize=true
+Index\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\accessAtSchedule=true
+Index\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\accessAtRTL=true
+RTL_V\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\context=lab_explicit_mem::Modules::dut::BASIC
+RTL_V\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\curFile=0
+RTL_V\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\editor%3Abdw_work\modules\dut\BASIC\dut_rtl.v=@ByteArray(\0\0\0\x1\0\0\0\x15\0\0\0\x4\0\0\0\x1\0\0\0\0\0\0\0\0)
+HLSConfig\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\shownTabs=Dashboard
+HLSConfig\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\tornOffTabs=@Invalid()
+HLSConfig\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\splitTabs=RTL Verilog
+HLSConfig\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\selTab=Dashboard
+HLSConfig\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\selSplitTab=0
+HLSConfig\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\TopSplitterPos=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x2\0\0\x3 \0\0\x3 \x1\0\0\0\b\x1\0\0\0\x1)
+HLSConfig\lab_explicit_mem%3A%3AModules%3A%3Adut%3A%3ABASIC\TopSplitOrientation=false

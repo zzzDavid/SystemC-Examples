@@ -1,0 +1,17 @@
+
+             SystemC 2.3.0-ASI --- Feb  9 2017 16:02:08
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+NOTE: Cadence Design Systems Hub Simulation Platform : version 17.20-p100
+Note: VCD trace timescale unit is set by user to 1.000000e-12 sec.
+Testbench sink thread read 5000000 values. Average latency 2.
+SIMULATION PASSED
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+****************************************
+Thu Nov 19 10:15:20 EST 2020
+ERROR: Simulation output doesn't exist
+for T Simulation...
+  T: SIMULATION FAILED
+****************************************

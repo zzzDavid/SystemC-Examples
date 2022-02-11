@@ -1,0 +1,12 @@
+1208
+4553
+zhang-x1.ece.cornell.edu
+bdw_work/trace/sim.REG_V.trace
+2
+0
+0
+0
+1605639937
+1605639996
+make CWBExec=1 sim_REG_V
+

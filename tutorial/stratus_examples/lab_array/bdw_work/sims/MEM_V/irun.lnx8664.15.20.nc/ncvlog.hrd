@@ -1,0 +1,16 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-YDIR
+bdw_work/libs/memlib/v_rtl
+-INCDIR
+/opt/cadence/STRATUS172/tools.lnx86/stratus/lib
+-INCDIR
+bdw_work/wrappers
+-LIBEXT
+.v
+-DEFINE
+ioConfig
+-DEFINE
+BDW_RTL_dut_MEM

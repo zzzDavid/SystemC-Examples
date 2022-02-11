@@ -1,0 +1,12 @@
+19419
+19449
+zhang-x1.ece.cornell.edu
+bdw_work/trace/sim.B.trace
+2
+0
+0
+0
+1605588202
+1605588226
+make CWBExec=1 sim_B
+

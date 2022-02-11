@@ -1,0 +1,578 @@
+ Starting Stratus DPOpt (Linux)
+  Time: November 20, 2020. 12:05:02
+  Host: zhang-x1.ece.cornell.edu
+  User: jl3952
+  Args: --dofile /opt/cadence/STRATUS172/share/stratus/tcl/bdw_cmd_shell.tcl --locallogfile /dev/null -x bdw_server_start
+
+               Stratus DpOpt
+               =============
+              Version: 2017.1.02 
+
+  Copyright (c) 2014-2017 Cadence Design Systems.  All rights reserved worldwide.
+  
+  Warning: This computer program is protected by copyright law and 
+  international treaties.  Unauthorized reproduction, modification, 
+  or distribution of this program, or any portion of it, may result 
+  in severe civil and criminal penalties.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+  
+  Info: Script "/opt/cadence/STRATUS172/share/stratus/tcl/bdw_cmd_shell.tcl" run successfully
+
+##########################################################################
+# Starting in server mode with port 33525
+#   client pid = 34663
+##########################################################################
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+Failed to read SDL file.
+If you intended to read a SAVI file then please use CellMath Designer.
+  Warning: No instances to remove.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+WARNING: No library loaded, loading generic library. (CMDSHELL-13)
+WARNING: No directories in variable lib_path  (CMDSHELL-10)
+INFO: Reading LBF file '/opt/cadence/STRATUS172/tools.lnx86/cellmath/libs/generic.lbf' and building datastructures (LBFPARSE-1)
+INFO: Reading LBF file '/opt/cadence/STRATUS172/tools.lnx86/cellmath/libs/gencount.lbf' and building datastructures (LBFPARSE-1)
+INFO: Constructing composite cells (CMDSHELL-4)
+INFO: Library load complete (CMDSHELL-5)
+INFO: Instantiating implementation module "dut_LessThan_4Ux4U_1U_4" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_4.sdl(2,3): INFO: Running flattening on "dut_LessThan_4Ux4U_1U_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_LessThan_4Ux4U_1U_4" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_LessThan_4Ux4U_1U_4 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_LessThan_4Ux4U_1U_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_LessThan_4Ux4U_1U_4" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_4.sdl(2,3): INFO: Running flattening on "dut_LessThan_4Ux4U_1U_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_LessThan_4Ux4U_1U_4" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_LessThan_4Ux4U_1U_4 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_LessThan_4Ux4U_1U_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_Add_9Sx8U_10S_4" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_4.sdl(2,3): INFO: Running flattening on "dut_Add_9Sx8U_10S_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_Add_9Sx8U_10S_4" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_Add_9Sx8U_10S_4 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_Add_9Sx8U_10S_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_Add_9Sx8U_10S_4" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_4.sdl(2,3): INFO: Running flattening on "dut_Add_9Sx8U_10S_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_Add_9Sx8U_10S_4" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_Add_9Sx8U_10S_4 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_Add_9Sx8U_10S_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_Add_4Ux2S_4S_4" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_4.sdl(2,3): INFO: Running flattening on "dut_Add_4Ux2S_4S_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_Add_4Ux2S_4S_4" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_Add_4Ux2S_4S_4 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_Add_4Ux2S_4S_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_Add_4Ux2S_4S_4" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_4.sdl(2,3): INFO: Running flattening on "dut_Add_4Ux2S_4S_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_Add_4Ux2S_4S_4" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_Add_4Ux2S_4S_4 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_Add_4Ux2S_4S_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_LessThan_4Ux4U_1U_1" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_1.sdl(2,3): INFO: Running flattening on "dut_LessThan_4Ux4U_1U_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_LessThan_4Ux4U_1U_1" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_LessThan_4Ux4U_1U_1 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_LessThan_4Ux4U_1U_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_LessThan_4Ux4U_1U_1" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_1.sdl(2,3): INFO: Running flattening on "dut_LessThan_4Ux4U_1U_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_LessThan_4Ux4U_1U_1" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_LessThan_4Ux4U_1U_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_LessThan_4Ux4U_1U_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_LessThan_4Ux4U_1U_1 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_LessThan_4Ux4U_1U_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_Add_9Sx8U_10S_1" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_1.sdl(2,3): INFO: Running flattening on "dut_Add_9Sx8U_10S_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_Add_9Sx8U_10S_1" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_Add_9Sx8U_10S_1 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_Add_9Sx8U_10S_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_Add_9Sx8U_10S_1" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_1.sdl(2,3): INFO: Running flattening on "dut_Add_9Sx8U_10S_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_Add_9Sx8U_10S_1" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_9Sx8U_10S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_9Sx8U_10S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_Add_9Sx8U_10S_1 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_Add_9Sx8U_10S_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_Add_4Ux2S_4S_1" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_1.sdl(2,3): INFO: Running flattening on "dut_Add_4Ux2S_4S_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_Add_4Ux2S_4S_1" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_Add_4Ux2S_4S_1 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_Add_4Ux2S_4S_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "dut_Add_4Ux2S_4S_1" (CMDSHELL-8)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_1.sdl(2,3): INFO: Running flattening on "dut_Add_4Ux2S_4S_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "dut_Add_4Ux2S_4S_1" is now selected. (CMDSHELL-12)
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/dut_Add_4Ux2S_4S_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "dut_Add_4Ux2S_4S_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model dut_Add_4Ux2S_4S_1 for output to /work/shared/users/phd/jl3952/tutorials/systemc/demo_add/bdw_work/modules/dut/BASIC/v_rtl/dut_Add_4Ux2S_4S_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.

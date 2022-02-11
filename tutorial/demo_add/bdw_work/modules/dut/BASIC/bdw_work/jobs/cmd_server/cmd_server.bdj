@@ -1,0 +1,12 @@
+34663
+34670
+zhang-x1.ece.cornell.edu
+-
+3
+0
+0
+1
+1605891902
+1605891933
+/opt/cadence/STRATUS172/tools.lnx86/stratus/bin/bdw_cmd_shell -dpopt --locallogfile /dev/null -x bdw_server_start
+

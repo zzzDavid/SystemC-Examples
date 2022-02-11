@@ -1,0 +1,73 @@
+Operating system ,
+ GCC 4.8.5,
+ and Cadence NC/IUS 15.20
+are a supported combination.
+irun(64): 15.20-s016: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+file: bdw_work/sims/top_MEM_V.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/dut_cosim.v
+	module worklib.dut_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/dut/MEM/dut_rtl.v
+	module worklib.dut:v
+		errors: 0, warnings: 0
+file: bdw_work/libs/memlib/v_rtl/RAM_64x8.v
+	module worklib.RAM_64x8:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.RAM_64x8:v <0x0fb24f8d>
+			streams:   2, words:   583
+		worklib.dut:v <0x5b5a6b9e>
+			streams:  32, words: 11716
+		worklib.top:v <0x4ec25081>
+			streams: 114, words: 98503
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 4       4
+		Registers:             141     141
+		Scalar wires:           17       -
+		Vectored wires:          8       -
+		Always blocks:          25      25
+		Initial blocks:          7       7
+		Cont. assignments:       9      17
+		Pseudo assignments:      7       7
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /opt/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+
+             SystemC 2.3.0-ASI --- Feb  9 2017 16:02:52
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+NOTE: Cadence Design Systems Hub Simulation Platform : version 17.20-p100
+Latency for sample 0 is 3
+Latency for sample 1 is 3
+Latency for sample 2 is 3
+Latency for sample 3 is 3
+Latency for sample 4 is 3
+Latency for sample 5 is 3
+Latency for sample 6 is 3
+Latency for sample 7 is 3
+Latency for sample 8 is 3
+Latency for sample 9 is 3
+Latency for sample 10 is 3
+Average latency 3.
+Simulation stopped via $stop(1) at time 555100 PS + 0
+./bdw_work/sims/top_MEM_V.v:63 		#100 $stop;
+ncsim> quit

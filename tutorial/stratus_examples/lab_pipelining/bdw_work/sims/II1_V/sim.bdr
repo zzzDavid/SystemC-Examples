@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<tool_log>
+	<tool_kind>LogicSimulator</tool_kind>
+	<tool_name>NC Verilog</tool_name>
+	<hostname>zhang-x1.ece.cornell.edu</hostname>
+	<uname>Linux 3.10.0-1127.13.1.el7.x86_64 x86_64</uname>
+	<cwd>/work/shared/users/phd/jl3952/tutorials/systemc/stratus_examples/lab_pipelining</cwd>
+	<user>jl3952</user>
+	<gen_time>Thu Nov 19 00:05:23 2020</gen_time>
+	<module_inst>
+		<module_name>dut</module_name>
+		<inst_path>system.DUT</inst_path>
+		<representation>RTL_V</representation>
+	</module_inst>
+	<latency>
+		<value>5</value>
+		<module_name>dut</module_name>
+		<name>average_latency</name>
+	</latency>
+	<end_time>Thu Nov 19 00:05:23 2020</end_time>
+	<passed>1</passed>
+</tool_log>

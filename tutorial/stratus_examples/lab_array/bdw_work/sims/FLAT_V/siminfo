@@ -1,0 +1,4 @@
+bdw_work/sims/top_FLAT_V.v
+bdw_work/wrappers/dut_cosim.v
+bdw_work/modules/dut/FLAT/dut_rtl.v
+-y bdw_work/libs/memlib/v_rtl

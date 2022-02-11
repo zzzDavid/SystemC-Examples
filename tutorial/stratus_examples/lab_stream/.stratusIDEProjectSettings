@@ -1,0 +1,9 @@
+[tree]
+Selection=lab_stream, Modules
+OpenTopLevel=Modules, Sim Configs
+OpenModules=dut
+OpenLibTypes=Resources
+OpenLibs=iflib
+
+[analysis]
+%2B\NIL\context=(nil)

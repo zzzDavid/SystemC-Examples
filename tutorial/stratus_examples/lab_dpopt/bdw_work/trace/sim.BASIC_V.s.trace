@@ -1,0 +1,73 @@
+Operating system ,
+ GCC 4.8.5,
+ and Cadence NC/IUS 15.20
+are a supported combination.
+irun(64): 15.20-s016: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+file: bdw_work/sims/top_BASIC_V.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/dut_cosim.v
+	module worklib.dut_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/dut/BASIC/dut_rtl.v
+	module worklib.dut:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.dut:v <0x67a62e03>
+			streams:  51, words: 20198
+		worklib.top:v <0x30bf7fd2>
+			streams: 121, words: 100998
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 3       3
+		Registers:             158     158
+		Scalar wires:           15       -
+		Vectored wires:         18       -
+		Always blocks:          36      36
+		Initial blocks:          7       7
+		Cont. assignments:      14      20
+		Pseudo assignments:     12      12
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /opt/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+
+             SystemC 2.3.0-ASI --- Feb  9 2017 16:02:52
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+NOTE: Cadence Design Systems Hub Simulation Platform : version 17.20-p100
+Latency for sample 0 is 12
+Latency for sample 1 is 12
+Latency for sample 2 is 12
+Latency for sample 3 is 12
+Latency for sample 4 is 12
+Latency for sample 5 is 12
+Latency for sample 6 is 12
+Latency for sample 7 is 12
+Latency for sample 8 is 12
+Latency for sample 9 is 12
+Latency for sample 10 is 12
+Latency for sample 11 is 12
+Latency for sample 12 is 12
+Latency for sample 13 is 12
+Latency for sample 14 is 12
+Latency for sample 15 is 12
+Average latency 12.
+Simulation stopped via $stop(1) at time 580350 PS + 0
+./bdw_work/sims/top_BASIC_V.v:70 		#100 $stop;
+ncsim> quit

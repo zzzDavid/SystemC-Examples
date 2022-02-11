@@ -1,0 +1,12 @@
+26327
+31545
+zhang-x1.ece.cornell.edu
+bdw_work/trace/sim.DPO_AUTO_OP_V.trace
+2
+0
+0
+0
+1605717167
+1605717198
+make CWBExec=1 sim_DPO_AUTO_OP_V
+

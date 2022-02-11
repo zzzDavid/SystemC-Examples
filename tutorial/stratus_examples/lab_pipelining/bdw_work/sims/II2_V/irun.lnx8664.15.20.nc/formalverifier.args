@@ -1,0 +1,12 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-64bit
+-LOADPLI1
+/opt/cadence/STRATUS172/tools.lnx86/stratus/lib/64bit/ncvlog_ssl:ssl_bootstrap
+-INPUT
+bdw_work/sims/II2_V/ncverilog.do
+-NOWARN
+LIBNOU
+-MESSAGES

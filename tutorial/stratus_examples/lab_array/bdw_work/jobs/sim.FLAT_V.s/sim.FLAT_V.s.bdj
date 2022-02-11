@@ -1,0 +1,12 @@
+8283
+8301
+zhang-x1.ece.cornell.edu
+bdw_work/trace/sim.FLAT_V.s.trace
+2
+0
+0
+0
+1605640055
+1605640056
+/opt/cadence/STRATUS172/bin/hub_ncverilog -f bdw_work/sims/FLAT_V/siminfo +ncinput+bdw_work/sims/FLAT_V/ncverilog.do +nclibdirname+bdw_work/sims/FLAT_V +libext+.v +define+ioConfig +define+BDW_RTL_dut_FLAT +nowarn+LIBNOU +hubSetOption+libdef=bdw_work/sims/FLAT_V/sim_FLAT_V.so +hubSetOption+bdr=bdw_work/sims/FLAT_V/sim.bdr -l bdw_work/sims/FLAT_V/bdw_sim_verilog.log
+

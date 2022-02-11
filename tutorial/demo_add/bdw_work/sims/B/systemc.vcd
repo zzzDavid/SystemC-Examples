@@ -1,0 +1,372 @@
+$date
+     Nov 20, 2020       12:04:42
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Feb  9 2017 16:02:52
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  system.dut_wrapper.dut.clk       $end
+$var wire    1  aab  system.dut_wrapper.dut.rst       $end
+$var wire    1  aac  system.dut_wrapper.dut.din_1.busy       $end
+$var wire    1  aad  system.dut_wrapper.dut.din_1.vld       $end
+$var wire    8  aae  system.dut_wrapper.dut.din_1.data [7:0]  $end
+$var wire    1  aaf  system.dut_wrapper.dut.din_2.busy       $end
+$var wire    1  aag  system.dut_wrapper.dut.din_2.vld       $end
+$var wire    8  aah  system.dut_wrapper.dut.din_2.data [7:0]  $end
+$var wire    1  aai  system.dut_wrapper.dut.dout.busy       $end
+$var wire    1  aaj  system.dut_wrapper.dut.dout.vld       $end
+$var wire    9  aak  system.dut_wrapper.dut.dout.data [8:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaa
+0aab
+1aac
+0aad
+b0 aae
+1aaf
+0aag
+b0 aah
+1aai
+0aaj
+b0 aak
+$end
+
+#2500
+0aaa
+
+#5000
+1aaa
+0aai
+
+#7500
+0aaa
+
+#10000
+1aaa
+1aab
+
+#12500
+0aaa
+
+#15000
+1aaa
+0aac
+1aad
+
+#17500
+0aaa
+
+#20000
+1aaa
+1aac
+0aad
+0aaf
+1aag
+
+#22500
+0aaa
+
+#25000
+1aaa
+1aad
+b1 aae
+1aaf
+0aag
+1aaj
+
+#27500
+0aaa
+
+#30000
+1aaa
+0aac
+0aaj
+
+#32500
+0aaa
+
+#35000
+1aaa
+1aac
+0aad
+0aaf
+1aag
+b1 aah
+
+#37500
+0aaa
+
+#40000
+1aaa
+1aad
+b10 aae
+1aaf
+0aag
+1aaj
+b10 aak
+
+#42500
+0aaa
+
+#45000
+1aaa
+0aac
+0aaj
+
+#47500
+0aaa
+
+#50000
+1aaa
+1aac
+0aad
+0aaf
+1aag
+b10 aah
+
+#52500
+0aaa
+
+#55000
+1aaa
+1aad
+b11 aae
+1aaf
+0aag
+1aaj
+b100 aak
+
+#57500
+0aaa
+
+#60000
+1aaa
+0aac
+0aaj
+
+#62500
+0aaa
+
+#65000
+1aaa
+1aac
+0aad
+0aaf
+1aag
+b11 aah
+
+#67500
+0aaa
+
+#70000
+1aaa
+1aad
+b100 aae
+1aaf
+0aag
+1aaj
+b110 aak
+
+#72500
+0aaa
+
+#75000
+1aaa
+0aac
+0aaj
+
+#77500
+0aaa
+
+#80000
+1aaa
+1aac
+0aad
+0aaf
+1aag
+b100 aah
+
+#82500
+0aaa
+
+#85000
+1aaa
+1aad
+b101 aae
+1aaf
+0aag
+1aaj
+b1000 aak
+
+#87500
+0aaa
+
+#90000
+1aaa
+0aac
+0aaj
+
+#92500
+0aaa
+
+#95000
+1aaa
+1aac
+0aad
+0aaf
+1aag
+b101 aah
+
+#97500
+0aaa
+
+#100000
+1aaa
+1aad
+b110 aae
+1aaf
+0aag
+1aaj
+b1010 aak
+
+#102500
+0aaa
+
+#105000
+1aaa
+0aac
+0aaj
+
+#107500
+0aaa
+
+#110000
+1aaa
+1aac
+0aad
+0aaf
+1aag
+b110 aah
+
+#112500
+0aaa
+
+#115000
+1aaa
+1aad
+b111 aae
+1aaf
+0aag
+1aaj
+b1100 aak
+
+#117500
+0aaa
+
+#120000
+1aaa
+0aac
+0aaj
+
+#122500
+0aaa
+
+#125000
+1aaa
+1aac
+0aad
+0aaf
+1aag
+b111 aah
+
+#127500
+0aaa
+
+#130000
+1aaa
+1aad
+b1000 aae
+1aaf
+0aag
+1aaj
+b1110 aak
+
+#132500
+0aaa
+
+#135000
+1aaa
+0aac
+0aaj
+
+#137500
+0aaa
+
+#140000
+1aaa
+1aac
+0aad
+0aaf
+1aag
+b1000 aah
+
+#142500
+0aaa
+
+#145000
+1aaa
+1aad
+b1001 aae
+1aaf
+0aag
+1aaj
+b10000 aak
+
+#147500
+0aaa
+
+#150000
+1aaa
+0aac
+0aaj
+
+#152500
+0aaa
+
+#155000
+1aaa
+1aac
+0aad
+0aaf
+1aag
+b1001 aah
+
+#157500
+0aaa
+
+#160000
+1aaa
+1aaf
+0aag
+1aaj
+b10010 aak
+
+#162500
+0aaa
+
+#165000
+1aaa
+1aai
+

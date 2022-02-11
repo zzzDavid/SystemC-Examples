@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<report_catalogue>
+	<report_file>
+		<report_def>
+			<name>scheduler</name>
+			<summary>Reports all of the operations scheduled in each thread.</summary>
+			<unprintable/>
+			<node_kind>hls_config</node_kind>
+		</report_def>
+		<name>scheduler</name>
+		<object>hls_config:lab_pipelining/dut/II1</object>
+		<silent/>
+		<time>Thu Nov 19 00:05:03 2020</time>
+		<hostname>zhang-x1.ece.cornell.edu</hostname>
+		<user>jl3952</user>
+		<version>17.20-p100</version>
+	</report_file>
+</report_catalogue>

@@ -1,0 +1,108 @@
+WARNING: This script is running on an unsupported platform: 
+CentOS Linux release 7.8.2003 (Core)
+
+Created makefile: Makefile.prj
+make[2]: `bdw_work/modules/dut/BASIC/dut_rtl.cc' is up to date.
+make[2]: `bdw_work/modules/dut/BASIC/dut_rtl.v' is up to date.
+/opt/cadence/STRATUS172/bin/bdw_shell /opt/cadence/STRATUS172/share/stratus/tcl/bdw_siminfo.tcl project.tcl BASIC_V
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++  -Ibdw_work/modules/dut/BASIC -I./ -I./ -Ibdw_work/wrappers  -DBDW_CC_SPEC=1 -Ibdw_work/modules/dut/BASIC/c_parts -DBASIC=1 -DBDW_RTL_dut_BASIC=1    -c -g -DCLOCK_PERIOD=5.0   -fPIC  -I/opt/cadence/STRATUS172/share/stratus/include -I/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0 -o bdw_work/modules/dut/BASIC/dut.o  bdw_work/wrappers/dut_wrap.cc
+/opt/cadence/STRATUS172/tools.lnx86/stratus/gcc/4.8/bin/g++ -shared -Wl,-Bsymbolic  \
+        -Wl,-rpath,/opt/cadence/STRATUS172/tools.lnx86/stratus/lib/64bit \
+        -Wl,-rpath,/opt/cadence/STRATUS172/tools.lnx86/lib/64bit \
+        -Wl,-rpath,/opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/lib-linux64 \
+	-o bdw_work/sims/BASIC_V/sim_BASIC_V.so  \
+	bdw_work/modules/dut/BASIC/dut.o bdw_work/objs/main.o bdw_work/objs/system.o bdw_work/objs/tb.o \
+	 \
+	 \
+        bdw_work/libesc/libesc.a \
+	 \
+	-L /opt/cadence/STRATUS172/tools.lnx86/lib/64bit -L /opt/cadence/STRATUS172/tools.lnx86/stratus/lib/64bit  -L /opt/cadence/STRATUS172/tools.lnx86/stratus/systemc/2.3/lib-linux64 -lscv -lsystemc  -lbdw_st  \
+	-lm -lcrypt -ldl \
+	2>&1 | perl /opt/cadence/STRATUS172/tools.lnx86/stratus/lib/hub_link_filter.pl
+/opt/cadence/STRATUS172/bin/bdw_wrapgen -project project.tcl -simconfig BASIC_V -top top
+
+BDW_SIM_CONFIG_DIR=bdw_work/sims/BASIC_V \
+bdw_exec -jobproject project.tcl -job sim.BASIC_V.s \
+/opt/cadence/STRATUS172/bin/hub_ncverilog \
+	-f bdw_work/sims/BASIC_V/siminfo \
+	+ncinput+bdw_work/sims/BASIC_V/ncverilog.do \
+	+nclibdirname+bdw_work/sims/BASIC_V \
+	+libext+.v   +define+ioConfig +define+BDW_RTL_dut_BASIC \
+	+nowarn+LIBNOU  +hubSetOption+libdef=bdw_work/sims/BASIC_V/sim_BASIC_V.so +hubSetOption+bdr=bdw_work/sims/BASIC_V/sim.bdr \
+	-l bdw_work/sims/BASIC_V/bdw_sim_verilog.log \
+	2>&1 | tee bdw_work/sims/BASIC_V/bdw_sim.log
+Operating system ,
+ GCC 4.8.5,
+ and Cadence NC/IUS 15.20
+are a supported combination.
+irun(64): 15.20-s016: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+file: bdw_work/sims/top_BASIC_V.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/dut_cosim.v
+	module worklib.dut_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/dut/BASIC/dut_rtl.v
+	module worklib.dut:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.dut:v <0x0d893713>
+			streams:  20, words:  5140
+		worklib.top:v <0x6642c818>
+			streams: 114, words: 98503
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 3       3
+		Registers:             133     133
+		Scalar wires:           15       -
+		Vectored wires:          3       -
+		Always blocks:          18      18
+		Initial blocks:          7       7
+		Cont. assignments:       6      12
+		Pseudo assignments:      5       5
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /opt/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+
+             SystemC 2.3.0-ASI --- Feb  9 2017 16:02:52
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+NOTE: Cadence Design Systems Hub Simulation Platform : version 17.20-p100
+Latency for sample 0 is 1
+Latency for sample 1 is 1
+Latency for sample 2 is 1
+Latency for sample 3 is 1
+Latency for sample 4 is 1
+Latency for sample 5 is 1
+Latency for sample 6 is 1
+Latency for sample 7 is 1
+Latency for sample 8 is 1
+Latency for sample 9 is 1
+Latency for sample 10 is 1
+Average latency 1.
+Simulation stopped via $stop(1) at time 125100 PS + 0
+./bdw_work/sims/top_BASIC_V.v:63 		#100 $stop;
+ncsim> quit
+BDW_SIM_CONFIG_DIR=bdw_work/sims/BASIC_V make cmp_result 2>&1 | tee -a bdw_work/sims/BASIC_V/bdw_sim.log
+****************************************
+Mon Nov 16 23:45:32 EST 2020
+Performing Simulation Results Comparison
+for BASIC_V Simulation...
+  BASIC_V: SIMULATION PASSED
+****************************************

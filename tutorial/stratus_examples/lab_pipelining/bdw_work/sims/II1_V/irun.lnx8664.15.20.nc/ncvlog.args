@@ -1,0 +1,34 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-XLMODE
+bdw_work/sims/II1_V/irun.lnx8664.15.20.nc
+-RUNMODE
+-INCDIR
+/opt/cadence/STRATUS172/tools.lnx86/stratus/lib
+-INCDIR
+bdw_work/wrappers
+bdw_work/sims/top_II1_V.v
+bdw_work/wrappers/dut_cosim.v
+bdw_work/modules/dut/II1/dut_rtl.v
+bdw_work/modules/dut/II1/v_rtl/dut_Div_64Ux2U_32U_4.v
+-NCLIBDIRNAME
+bdw_work/sims/II1_V
+-LIBEXT
+.v
+-DEFINE
+ioConfig
+-DEFINE
+BDW_RTL_dut_II1
+-NOWARN
+LIBNOU
+-CDSLIB
+bdw_work/sims/II1_V/irun.lnx8664.15.20.nc/cdsrun.lib
+-HDLVAR
+bdw_work/sims/II1_V/irun.lnx8664.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+bdw_work/sims/II1_V/irun.lnx8664.15.20.nc/xllibs
+-ALLOWUNBOUND

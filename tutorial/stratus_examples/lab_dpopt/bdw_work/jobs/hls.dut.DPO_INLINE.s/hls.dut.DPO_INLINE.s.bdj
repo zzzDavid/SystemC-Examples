@@ -1,0 +1,12 @@
+35552
+35570
+zhang-x1.ece.cornell.edu
+bdw_work/trace/hls.dut.DPO_INLINE.s.trace
+2
+0
+0
+0
+1605717386
+1605717505
+/opt/cadence/STRATUS172/bin/stratus_hls --logfile=stratus_hls.log -I. -Ibdw_work/wrappers -I/opt/cadence/STRATUS172/share/stratus/include --tl=/opt/cadence/STRATUS172/share/stratus/techlibs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/slow_vdd1v2_basicCells.lib --balance_expr=off --clock_period=2.750 --default_input_delay=0.100 --dpopt_auto=off --dpopt_with_enable=off --flatten_arrays=none --global_state_encoding=binary --inline_partial_constants=off --lsb_trimming=off --message_detail=0 --method_processing=synthesize --path_delay_limit=140.000 --sched_asap=off --unroll_loops=off --wireload=none -DDPO_INLINE=1 -DBDW_RTL_dut_DPO_INLINE=1 -DLAT=2 -DDPOPT_ALL -d bdw_work/modules/dut/DPO_INLINE -o dut_rtl.cc --hls_module=dut --hls_config=DPO_INLINE --project=project.tcl dut.cc
+

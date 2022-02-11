@@ -1,0 +1,24 @@
+ Starting Stratus DPOpt (Linux)
+  Time: November 19, 2020. 00:45:57
+  Host: zhang-x1.ece.cornell.edu
+  User: jl3952
+  Args: --dofile /opt/cadence/STRATUS172/share/stratus/tcl/bdw_cmd_shell.tcl --locallogfile /dev/null -x bdw_server_start
+
+               Stratus DpOpt
+               =============
+              Version: 2017.1.02 
+
+  Copyright (c) 2014-2017 Cadence Design Systems.  All rights reserved worldwide.
+  
+  Warning: This computer program is protected by copyright law and 
+  international treaties.  Unauthorized reproduction, modification, 
+  or distribution of this program, or any portion of it, may result 
+  in severe civil and criminal penalties.
+INFO: Using installation at: /opt/cadence/STRATUS172/tools.lnx86/cellmath/ (DPEAPI-3)
+  
+  Info: Script "/opt/cadence/STRATUS172/share/stratus/tcl/bdw_cmd_shell.tcl" run successfully
+
+##########################################################################
+# Starting in server mode with port 43685
+#   client pid = 1620
+##########################################################################

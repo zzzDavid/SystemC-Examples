@@ -1,0 +1,12 @@
+40592
+40609
+zhang-x1.ece.cornell.edu
+bdw_work/trace/hls.dut.II2.s.trace
+2
+0
+0
+0
+1605764711
+1605764744
+/opt/cadence/STRATUS172/bin/stratus_hls --logfile=stratus_hls.log -I. -Ibdw_work/wrappers -I/opt/cadence/STRATUS172/share/stratus/include --tl=/opt/cadence/STRATUS172/share/stratus/techlibs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/slow_vdd1v2_basicCells.lib --balance_expr=off --clock_period=10.000 --default_input_delay=0.100 --dpopt_auto=off --dpopt_with_enable=off --flatten_arrays=none --inline_partial_constants=off --lsb_trimming=off --message_detail=0 --method_processing=synthesize --path_delay_limit=140.000 --sched_asap=off --unroll_loops=off --wireload=none -DII2=1 -DBDW_RTL_dut_II2=1 -DII=2 -d bdw_work/modules/dut/II2 -o dut_rtl.cc --hls_module=dut --hls_config=II2 --project=project.tcl dut.cc
+

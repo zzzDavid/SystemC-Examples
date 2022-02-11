@@ -1,0 +1,4 @@
+bdw_work/sims/top_DPO_AUTO_EXPR_V.v
+bdw_work/wrappers/dut_cosim.v
+bdw_work/modules/dut/DPO_AUTO_EXPR/dut_rtl.v
+

@@ -1,0 +1,35 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-XLMODE
+bdw_work/sims/REG_V/irun.lnx8664.15.20.nc
+-RUNMODE
+-INCDIR
+/opt/cadence/STRATUS172/tools.lnx86/stratus/lib
+-INCDIR
+bdw_work/wrappers
+bdw_work/sims/top_REG_V.v
+bdw_work/wrappers/dut_cosim.v
+bdw_work/modules/dut/REG/dut_rtl.v
+-YDIR
+bdw_work/libs/memlib/v_rtl
+-NCLIBDIRNAME
+bdw_work/sims/REG_V
+-LIBEXT
+.v
+-DEFINE
+ioConfig
+-DEFINE
+BDW_RTL_dut_REG
+-NOWARN
+LIBNOU
+-CDSLIB
+bdw_work/sims/REG_V/irun.lnx8664.15.20.nc/cdsrun.lib
+-HDLVAR
+bdw_work/sims/REG_V/irun.lnx8664.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+bdw_work/sims/REG_V/irun.lnx8664.15.20.nc/xllibs
+-ALLOWUNBOUND

@@ -1,0 +1,104 @@
+Operating system ,
+ GCC 4.8.5,
+ and Cadence NC/IUS 15.20
+are a supported combination.
+irun(64): 15.20-s016: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+file: bdw_work/sims/top_FLAT_UNROLL_ALL_V.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/dut_cosim.v
+	module worklib.dut_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/dut/FLAT_UNROLL_ALL/dut_rtl.v
+	module worklib.dut:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.dut:v <0x1f5a4944>
+			streams:  35, words: 13414
+		worklib.top:v <0x79611a79>
+			streams: 114, words: 98503
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 3       3
+		Registers:             144     144
+		Scalar wires:           15       -
+		Vectored wires:          5       -
+		Always blocks:          29      29
+		Initial blocks:          7       7
+		Cont. assignments:       8      14
+		Pseudo assignments:      5       5
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /opt/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+
+             SystemC 2.3.0-ASI --- Feb  9 2017 16:02:52
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+NOTE: Cadence Design Systems Hub Simulation Platform : version 17.20-p100
+Latency for sample 0 is 1
+Latency for sample 1 is 6
+Latency for sample 2 is 6
+Latency for sample 3 is 6
+Latency for sample 4 is 6
+Latency for sample 5 is 6
+Latency for sample 6 is 6
+Latency for sample 7 is 6
+Latency for sample 8 is 6
+Latency for sample 9 is 6
+Latency for sample 10 is 6
+Latency for sample 11 is 6
+Latency for sample 12 is 6
+Latency for sample 13 is 6
+Latency for sample 14 is 6
+Latency for sample 15 is 6
+Latency for sample 16 is 6
+Latency for sample 17 is 6
+Latency for sample 18 is 6
+Latency for sample 19 is 6
+Latency for sample 20 is 6
+Latency for sample 21 is 6
+Latency for sample 22 is 6
+Latency for sample 23 is 6
+Latency for sample 24 is 6
+Latency for sample 25 is 6
+Latency for sample 26 is 6
+Latency for sample 27 is 6
+Latency for sample 28 is 6
+Latency for sample 29 is 6
+Latency for sample 30 is 6
+Latency for sample 31 is 6
+Latency for sample 32 is 6
+Latency for sample 33 is 6
+Latency for sample 34 is 6
+Latency for sample 35 is 6
+Latency for sample 36 is 6
+Latency for sample 37 is 6
+Latency for sample 38 is 6
+Latency for sample 39 is 6
+Latency for sample 40 is 6
+Latency for sample 41 is 6
+Latency for sample 42 is 6
+Latency for sample 43 is 6
+Latency for sample 44 is 6
+Latency for sample 45 is 6
+Latency for sample 46 is 6
+Testbench sink thread read 47 values. Average latency 6.
+Simulation stopped via $stop(1) at time 1635100 PS + 0
+./bdw_work/sims/top_FLAT_UNROLL_ALL_V.v:63 		#100 $stop;
+ncsim> quit

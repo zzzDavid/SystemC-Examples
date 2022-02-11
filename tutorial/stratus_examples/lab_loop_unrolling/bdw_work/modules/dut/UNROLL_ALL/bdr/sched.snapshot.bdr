@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<snapshot>
+	<name>sched</name>
+	<array>
+		<name>my_array</name>
+		<source_loc>696</source_loc>
+		<datatype>
+			<array>8</array>
+			<datatype W="8">sc_uint</datatype>
+		</datatype>
+	</array>
+	<port>
+		<name>clk</name>
+		<source_loc>692</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>rst</name>
+		<source_loc>693</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>din_busy</name>
+		<source_loc>697</source_loc>
+		<direction>out</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>din_vld</name>
+		<source_loc>698</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>din_data</name>
+		<source_loc>699</source_loc>
+		<direction>in</direction>
+		<datatype W="8">sc_uint</datatype>
+	</port>
+	<port>
+		<name>dout_busy</name>
+		<source_loc>700</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>dout_vld</name>
+		<source_loc>701</source_loc>
+		<direction>out</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>dout_data</name>
+		<source_loc>702</source_loc>
+		<direction>out</direction>
+		<datatype W="11">sc_uint</datatype>
+	</port>
+	<ios>
+		<thread>thread1</thread>
+		<port>
+			<name>dout_m_stalling</name>
+			<source_loc>14184</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_m_req_m_next_trig_req</name>
+			<source_loc>14196</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_data</name>
+			<source_loc>699</source_loc>
+			<direction>in</direction>
+			<datatype W="8">sc_uint</datatype>
+		</port>
+		<port>
+			<name>din_m_data_is_invalid</name>
+			<source_loc>14176</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>clk</name>
+			<source_loc>692</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>rst</name>
+			<source_loc>693</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_data</name>
+			<source_loc>702</source_loc>
+			<direction>out</direction>
+			<datatype W="11">sc_uint</datatype>
+		</port>
+		<port>
+			<name>dout_m_req_m_trig_req</name>
+			<source_loc>14167</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_stalling</name>
+			<source_loc>14166</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_busy_req_0</name>
+			<source_loc>14162</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_busy_0</thread>
+		<port>
+			<name>din_m_stall_reg_full</name>
+			<source_loc>14179</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_vld_reg</name>
+			<source_loc>14198</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_busy_req_0</name>
+			<source_loc>14162</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_unvalidated_req</name>
+			<source_loc>14199</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_vld</name>
+			<source_loc>698</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_data_is_invalid</name>
+			<source_loc>14176</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_data_is_valid</name>
+			<source_loc>14177</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_busy</name>
+			<source_loc>697</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_busy_internal</name>
+			<source_loc>14201</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_unvalidated_req_0</thread>
+		<port>
+			<name>clk</name>
+			<source_loc>692</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_vld</name>
+			<source_loc>698</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_busy_req_0</name>
+			<source_loc>14162</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>rst</name>
+			<source_loc>693</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_unvalidated_req</name>
+			<source_loc>14199</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_do_stall_reg_full_0</thread>
+		<port>
+			<name>clk</name>
+			<source_loc>692</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_stalling</name>
+			<source_loc>14166</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_data_is_valid</name>
+			<source_loc>14177</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>rst</name>
+			<source_loc>693</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_stall_reg_full</name>
+			<source_loc>14179</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_do_reg_vld_0</thread>
+		<port>
+			<name>clk</name>
+			<source_loc>692</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_vld</name>
+			<source_loc>698</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_busy_internal</name>
+			<source_loc>14201</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>rst</name>
+			<source_loc>693</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>din_m_vld_reg</name>
+			<source_loc>14198</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_vld_0</thread>
+		<port>
+			<name>dout_m_req_active_s</name>
+			<source_loc>14217</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_m_unacked_req</name>
+			<source_loc>14218</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_vld</name>
+			<source_loc>701</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_unacked_req_0</thread>
+		<port>
+			<name>clk</name>
+			<source_loc>692</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_m_stalling</name>
+			<source_loc>14184</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>rst</name>
+			<source_loc>693</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_m_unacked_req</name>
+			<source_loc>14218</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_stalling_0</thread>
+		<port>
+			<name>dout_busy</name>
+			<source_loc>700</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_vld</name>
+			<source_loc>701</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_m_stalling</name>
+			<source_loc>14184</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_active_0</thread>
+		<port>
+			<name>dout_m_req_m_prev_trig_req</name>
+			<source_loc>14234</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_m_req_m_trig_req</name>
+			<source_loc>14167</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_m_req_active_s</name>
+			<source_loc>14217</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_prev_trig_reg_0</thread>
+		<port>
+			<name>clk</name>
+			<source_loc>692</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_m_req_m_trig_req</name>
+			<source_loc>14167</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>rst</name>
+			<source_loc>693</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_m_req_m_prev_trig_req</name>
+			<source_loc>14234</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_next_trig_reg_0</thread>
+		<port>
+			<name>dout_m_req_m_trig_req</name>
+			<source_loc>14167</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>dout_m_req_m_next_trig_req</name>
+			<source_loc>14196</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+</snapshot>

@@ -1,0 +1,23 @@
+TMPDIR is being set to /tmp/genus_temp_24140_zhang-x1.ece.cornell.edu_jl3952_37LnRY
+
+Loading tool scripts...
+Finished loading tool scripts (9 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source /opt/cadence/STRATUS172/tools.lnx86/bin/bdw_genus_server
+  Setting attribute of root '/': 'write_verification_files' = false
+  Setting attribute of root '/': 'dp_area_mode' = true
+  Setting attribute of root '/': 'multibit_mapping_effort_level' = low
+  Setting attribute of root '/': 'map_to_multiple_output_gates' = false
+  Setting attribute of root '/': 'auto_super_thread' = false
+  Setting attribute of root '/': 'max_cpus_per_server' = 0
+  Setting attribute of root '/': 'retime_verification_flow' = false
+  Setting attribute of root '/': 'retime_disable_all_transitive_drvrs' = 1
+  Setting attribute of root '/': 'legacy_collection' = true
+  Setting attribute of root '/': 'dpopt_rewrite_csaadd' = 0
+Sourcing '/opt/cadence/STRATUS172/share/stratus/tcl/bdw_generic_server.tcl' (Thu Nov 19 00:04:52 EST 2020)...
+Sourcing '/opt/cadence/STRATUS172/share/stratus/tcl/Messaging.tcl' (Thu Nov 19 00:04:52 EST 2020)...
+##########################################################################
+# Starting in server mode with port 33589@zhang-x1.ece.cornell.edu
+#   client pid = 24124
+##########################################################################

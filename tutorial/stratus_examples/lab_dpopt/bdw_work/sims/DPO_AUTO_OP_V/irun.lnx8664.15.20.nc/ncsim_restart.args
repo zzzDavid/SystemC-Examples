@@ -1,0 +1,40 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
++hubSetOption+libdef=bdw_work/sims/DPO_AUTO_OP_V/sim_DPO_AUTO_OP_V.so
++hubSetOption+bdr=bdw_work/sims/DPO_AUTO_OP_V/sim.bdr
++nc64bit
++incdir+/opt/cadence/STRATUS172/tools.lnx86/stratus/lib
++incdir+bdw_work/wrappers
++access+rw
++loadpli1=/opt/cadence/STRATUS172/tools.lnx86/stratus/lib/64bit/ncvlog_ssl:ssl_bootstrap
++ncinput+bdw_work/sims/DPO_AUTO_OP_V/ncverilog.do
++nclibdirname+bdw_work/sims/DPO_AUTO_OP_V
++libext+.v
++define+ioConfig
++define+BDW_RTL_dut_DPO_AUTO_OP
++nowarn+LIBNOU
+-INPUT
+bdw_work/sims/DPO_AUTO_OP_V/ncverilog.do
+-NOWARN
+LIBNOU
+-MESSAGES
++EMGRLOG
+bdw_work/sims/DPO_AUTO_OP_V/bdw_sim_verilog.log
+-XLSTIME
+1605717196
+-XLKEEP
+-XLMODE
+bdw_work/sims/DPO_AUTO_OP_V/irun.lnx8664.15.20.nc
+-RUNMODE
+-CDSLIB
+bdw_work/sims/DPO_AUTO_OP_V/irun.lnx8664.15.20.nc/cds.lib
+-HDLVAR
+bdw_work/sims/DPO_AUTO_OP_V/irun.lnx8664.15.20.nc/hdl.var
+-XLNAME
+irun
+-XLVERSION
+"TOOL:	irun(64)	15.20-s016"
+-XLNAME
+./bdw_work/sims/DPO_AUTO_OP_V/irun.lnx8664.15.20.nc/zhang-x1.ece.cornell.edu_32799

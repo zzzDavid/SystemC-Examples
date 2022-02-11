@@ -1,0 +1,8 @@
+Qt Warning: QFileSystemWatcher::removePaths: list is empty
+Qt Warning: QCoreApplication::postEvent: Unexpected null receiver
+ERROR: define_system_module: No C++ source file detected in define_system_module System system.h
+ERROR: define_system_module: No C++ source file detected in define_system_module System system.h
+ERROR: define_system_module: No C++ source file detected in define_system_module System system.h
+ERROR: No  .c* source files were specified for hls_module dut.  This is only supported when -template or -function is specified.
+Qt Warning: QCoreApplication::postEvent: Unexpected null receiver
+Qt Warning: QCoreApplication::postEvent: Unexpected null receiver

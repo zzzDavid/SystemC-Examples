@@ -1,0 +1,5 @@
+bdw_work/sims/top_MEM_V.v
+bdw_work/wrappers/dut_cosim.v
+bdw_work/modules/dut/MEM/dut_rtl.v
+bdw_work/libs/memlib/v_rtl/RAM_64x8.v
+-y bdw_work/libs/memlib/v_rtl

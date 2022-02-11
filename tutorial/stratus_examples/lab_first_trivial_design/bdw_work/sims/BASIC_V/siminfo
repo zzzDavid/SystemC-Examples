@@ -1,0 +1,4 @@
+bdw_work/sims/top_BASIC_V.v
+bdw_work/wrappers/dut_cosim.v
+bdw_work/modules/dut/BASIC/dut_rtl.v
+

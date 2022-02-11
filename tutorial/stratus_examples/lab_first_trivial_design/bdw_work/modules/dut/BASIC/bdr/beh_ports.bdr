@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<source_file>
+    <module>
+        <name>cynw::cynw_one_shot</name>
+        <id>37</id>
+        <source_path>/opt/cadence/STRATUS172/share/stratus/include/cynw_comm_util.h</source_path>
+        <source_line>1228</source_line>
+        <source_column>7</source_column>
+        <inline_module/>
+        <port>
+            <name>clk</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>clk</rtl_port_name>
+            <clock></clock>
+        </port>
+        <port>
+            <name>rst</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>rst</rtl_port_name>
+        </port>
+        <port>
+            <name>active</name>
+            <direction>out</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>active</rtl_port_name>
+        </port>
+        <signal>
+            <name>m_trig_req</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_trig_req</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_prev_trig_req</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_prev_trig_req</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_next_trig_req</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_next_trig_req</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_next_trig_req_reg</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_next_trig_req_reg</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_stalling</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_stalling</rtl_port_name>
+        </signal>
+    </module>
+    <module>
+        <name>cynw::cynw_p2p_in &lt;sc_dt::sc_uint &lt;(int)8 &gt;, CYN::cyn_enum &lt;(int)1 &gt; &gt;</name>
+        <id>718</id>
+        <source_path>/opt/cadence/STRATUS172/share/stratus/include/cynw_p2p.h</source_path>
+        <source_line>1320</source_line>
+        <source_column>7</source_column>
+        <required_file>/opt/cadence/STRATUS172/share/stratus/include/cyn_enums.h</required_file>
+        <inline_module/>
+        <port>
+            <name>busy</name>
+            <direction>out</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>busy</rtl_port_name>
+        </port>
+        <port>
+            <name>vld</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>vld</rtl_port_name>
+        </port>
+        <port>
+            <name>data</name>
+            <direction>in</direction>
+            <datatype W="8">sc_uint</datatype>
+            <rtl_port_name>data</rtl_port_name>
+        </port>
+        <signal>
+            <name>m_busy_in</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_busy_in</rtl_port_name>
+        </signal>
+        <signal>
+            <name>ob0</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>ob0</rtl_port_name>
+        </signal>
+        <signal>
+            <name>ob1</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>ob1</rtl_port_name>
+        </signal>
+        <signal>
+            <name>ob2</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>ob2</rtl_port_name>
+        </signal>
+        <signal>
+            <name>ob3</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>ob3</rtl_port_name>
+        </signal>
+        <signal>
+            <name>ob4</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>ob4</rtl_port_name>
+        </signal>
+        <signal>
+            <name>ob5</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>ob5</rtl_port_name>
+        </signal>
+        <signal>
+            <name>ob6</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>ob6</rtl_port_name>
+        </signal>
+        <signal>
+            <name>ob7</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>ob7</rtl_port_name>
+        </signal>
+        <port>
+            <name>clk</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>clk</rtl_port_name>
+            <clock></clock>
+        </port>
+        <port>
+            <name>rst</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>rst</rtl_port_name>
+        </port>
+        <signal>
+            <name>m_busy_req_0</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_busy_req_0</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_data_is_valid</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_data_is_valid</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_data_is_invalid</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_data_is_invalid</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_unvalidated_req</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_unvalidated_req</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_unacked_value</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_unacked_value</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_stall_reg_full</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_stall_reg_full</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_stalling</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_stalling</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_stall_reg</name>
+                        <datatype W="8">sc_uint</datatype>
+            <rtl_port_name>m_stall_reg</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_data_reg</name>
+                        <datatype W="8">sc_uint</datatype>
+            <rtl_port_name>m_data_reg</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_vld_reg</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_vld_reg</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_busy_internal</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_busy_internal</rtl_port_name>
+        </signal>
+    </module>
+    <module>
+        <name>cynw::cynw_p2p_out &lt;sc_dt::sc_uint &lt;(int)11 &gt;, CYN::cyn_enum &lt;(int)1 &gt; &gt;</name>
+        <id>1048</id>
+        <source_path>/opt/cadence/STRATUS172/share/stratus/include/cynw_p2p.h</source_path>
+        <source_line>4940</source_line>
+        <source_column>7</source_column>
+        <required_file>/opt/cadence/STRATUS172/share/stratus/include/cyn_enums.h</required_file>
+        <inline_module/>
+        <port>
+            <name>busy</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>busy</rtl_port_name>
+        </port>
+        <port>
+            <name>vld</name>
+            <direction>out</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>vld</rtl_port_name>
+        </port>
+        <port>
+            <name>data</name>
+            <direction>out</direction>
+            <datatype W="11">sc_uint</datatype>
+            <rtl_port_name>data</rtl_port_name>
+        </port>
+        <port>
+            <name>clk</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>clk</rtl_port_name>
+            <clock></clock>
+        </port>
+        <port>
+            <name>rst</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>rst</rtl_port_name>
+        </port>
+        <signal>
+            <name>m_unacked_req</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_unacked_req</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_req_active</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_req_active</rtl_port_name>
+        </signal>
+        <signal>
+            <name>m_stalling</name>
+                        <datatype W="1">bool</datatype>
+            <rtl_port_name>m_stalling</rtl_port_name>
+        </signal>
+    </module>
+    <module>
+        <name>dut</name>
+        <id>1306</id>
+        <source_path>dut.h</source_path>
+        <source_line>32</source_line>
+        <source_column>1</source_column>
+        <port>
+            <name>clk</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>clk</rtl_port_name>
+        </port>
+        <port>
+            <name>rst</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>rst</rtl_port_name>
+        </port>
+        <meta_port>
+            <name>din</name>
+            <datatype>
+                <name>cynw::cynw_p2p_base_in &lt;sc_dt::sc_uint &lt;(int)8 &gt;, CYN::cyn_enum &lt;(int)1 &gt; &gt;</name>
+                <id>735</id>
+                <required_file>/opt/cadence/STRATUS172/share/stratus/include/cynw_p2p.h</required_file>
+                <required_file>/opt/cadence/STRATUS172/share/stratus/include/cyn_enums.h</required_file>
+            </datatype>
+            <port>
+                <name>busy</name>
+                <direction>out</direction>
+                <datatype W="1">bool</datatype>
+                <rtl_port_name>din_busy</rtl_port_name>
+            </port>
+            <port>
+                <name>vld</name>
+                <direction>in</direction>
+                <datatype W="1">bool</datatype>
+                <rtl_port_name>din_vld</rtl_port_name>
+            </port>
+            <port>
+                <name>data</name>
+                <direction>in</direction>
+                <datatype W="8">sc_uint</datatype>
+                <rtl_port_name>din_data</rtl_port_name>
+            </port>
+        </meta_port>
+        <meta_port>
+            <name>dout</name>
+            <datatype>
+                <name>cynw::cynw_p2p_base_out &lt;sc_dt::sc_uint &lt;(int)11 &gt;, CYN::cyn_enum &lt;(int)1 &gt; &gt;</name>
+                <id>1065</id>
+                <required_file>/opt/cadence/STRATUS172/share/stratus/include/cynw_p2p.h</required_file>
+                <required_file>/opt/cadence/STRATUS172/share/stratus/include/cyn_enums.h</required_file>
+            </datatype>
+            <port>
+                <name>busy</name>
+                <direction>in</direction>
+                <datatype W="1">bool</datatype>
+                <rtl_port_name>dout_busy</rtl_port_name>
+            </port>
+            <port>
+                <name>vld</name>
+                <direction>out</direction>
+                <datatype W="1">bool</datatype>
+                <rtl_port_name>dout_vld</rtl_port_name>
+            </port>
+            <port>
+                <name>data</name>
+                <direction>out</direction>
+                <datatype W="11">sc_uint</datatype>
+                <rtl_port_name>dout_data</rtl_port_name>
+            </port>
+        </meta_port>
+        <port>
+            <name>din@busy</name>
+            <direction>out</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>din@busy</rtl_port_name>
+            <alt_name>din.busy</alt_name>
+        </port>
+        <port>
+            <name>din@vld</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>din@vld</rtl_port_name>
+            <alt_name>din.vld</alt_name>
+        </port>
+        <port>
+            <name>din@data</name>
+            <direction>in</direction>
+            <datatype W="8">sc_uint</datatype>
+            <rtl_port_name>din@data</rtl_port_name>
+            <alt_name>din.data</alt_name>
+        </port>
+        <port>
+            <name>dout@busy</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>dout@busy</rtl_port_name>
+            <alt_name>dout.busy</alt_name>
+        </port>
+        <port>
+            <name>dout@vld</name>
+            <direction>out</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>dout@vld</rtl_port_name>
+            <alt_name>dout.vld</alt_name>
+        </port>
+        <port>
+            <name>dout@data</name>
+            <direction>out</direction>
+            <datatype W="11">sc_uint</datatype>
+            <rtl_port_name>dout@data</rtl_port_name>
+            <alt_name>dout.data</alt_name>
+        </port>
+        <ctor_params>
+            <param>
+                <name></name>
+                <datatype>
+                    <name>sc_core::sc_module_name</name>
+                    <id>406</id>
+                </datatype>
+                <rtl_port_name></rtl_port_name>
+            </param>
+        </ctor_params>
+    </module>
+    <module>
+        <name>cynw::cynw_sync_in_tlm</name>
+        <id>3085</id>
+        <source_path>/opt/cadence/STRATUS172/share/stratus/include/cynw_comm_util.h</source_path>
+        <source_line>2081</source_line>
+        <source_column>1</source_column>
+        <inline_module/>
+        <port>
+            <name>m_input</name>
+            <direction>in</direction>
+            <datatype W="1">bool</datatype>
+            <rtl_port_name>m_input</rtl_port_name>
+        </port>
+    </module>
+</source_file>

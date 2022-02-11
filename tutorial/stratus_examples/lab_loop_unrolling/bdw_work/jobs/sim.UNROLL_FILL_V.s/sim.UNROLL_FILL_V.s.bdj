@@ -1,0 +1,12 @@
+1516
+1538
+zhang-x1.ece.cornell.edu
+bdw_work/trace/sim.UNROLL_FILL_V.s.trace
+2
+0
+0
+0
+1605671593
+1605671596
+/opt/cadence/STRATUS172/bin/hub_ncverilog -f bdw_work/sims/UNROLL_FILL_V/siminfo +ncinput+bdw_work/sims/UNROLL_FILL_V/ncverilog.do +nclibdirname+bdw_work/sims/UNROLL_FILL_V +libext+.v +define+ioConfig +define+BDW_RTL_dut_UNROLL_FILL +nowarn+LIBNOU +hubSetOption+libdef=bdw_work/sims/UNROLL_FILL_V/sim_UNROLL_FILL_V.so +hubSetOption+bdr=bdw_work/sims/UNROLL_FILL_V/sim.bdr -l bdw_work/sims/UNROLL_FILL_V/bdw_sim_verilog.log
+
