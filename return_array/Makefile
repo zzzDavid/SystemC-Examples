@@ -43,8 +43,8 @@ BDW_DEBUG = 1
 # the simulation results file (data.out) written by the testbench into the 
 # BDW_SIM_CONFIG simulation configuration directory. This is run automatically
 # at the end of each simulation (endOfSimCommand in project.tcl).
-GOLD_FILE = DRAM/golden.bin
-RESULTS_FILE = DRAM/result.bin 
+GOLD_FILE = golden.bin
+RESULTS_FILE = result.bin 
 
 # cmp_result:
 # 	@if [ -f $(RESULTS_FILE) ] ; then \

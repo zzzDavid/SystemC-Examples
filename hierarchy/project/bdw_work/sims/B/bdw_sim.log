@@ -10,7 +10,7 @@ Error: (E109) complete binding failed: port not bound: port 'system.dut_wrapper.
 In file: ../../../src/sysc/communication/sc_port.cpp:235
 WARNING: exit status = 1
 ****************************************
-Sat Feb 12 12:04:17 EST 2022
+Sat Feb 12 12:32:40 EST 2022
 ERROR: Simulation output doesn't exist
 for B Simulation...
   B: SIMULATION FAILED

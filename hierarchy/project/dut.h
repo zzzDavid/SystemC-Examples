@@ -38,14 +38,14 @@ SC_MODULE(dut)
     SC_CTHREAD(thread1, clk.pos());
     reset_signal_is(rst, 0);
     // Ports to interface with find_max
-    find_max_x_out(find_max_x_channel);
-    find_max_return_in(find_max_return_channel);
+    find_max_x_out.bind(find_max_x_channel);
+    find_max_return_in.bind(find_max_return_channel);
     find_max_x_out.clk_rst(clk, rst);
     find_max_return_in.clk_rst(clk, rst);
 
     // find_max
-    find_max_inst->find_max_x(find_max_x_channel);
-    find_max_inst->find_max_return(find_max_return_channel);
+    find_max_inst->find_max_x.bind(find_max_x_channel);
+    find_max_inst->find_max_return.bind(find_max_return_channel);
     find_max_inst->clk(clk);
     find_max_inst->rst(rst);
     HLS_MAP_TO_REG_BANK(C);

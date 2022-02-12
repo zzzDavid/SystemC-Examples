@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <getopt.h>
 #include <esc.h>
+#include <stdint.h>
 #include <iostream>
 #include <string>
 
@@ -13,8 +14,6 @@ void tb::source() {
   std::cout << "Testbench source thread starts\n";
 
   // P2P port reset
-  A.reset();
-  omega.reset();
   M.reset();
 
   // Generate reset signal
@@ -23,21 +22,19 @@ void tb::source() {
   rst.write(1);
   wait();
 
-  // read p2p ports from shared_memory
-  sc_uint<32> *A_arg = (sc_uint<32> *)shmat(131119, nullptr, 0);
-  sc_uint<32> A_ = A_arg[0];
-  sc_uint<32> *omega_arg = (sc_uint<32> *)shmat(131120, nullptr, 0);
-  sc_uint<32> omega_ = omega_arg[0];
-  sc_uint<32> *M_arg = (sc_uint<32> *)shmat(131121, nullptr, 0);
-  sc_uint<32> M_ = M_arg[0];
+  sc_uint<32> M_ = 17;
 
-  // read off-chip memories from shared memory
+  // write input and output data
+  for (unsigned i = 0; i < 8; i++) {
+    A[i] = i;
+  }
+  for (unsigned i = 0; i < 4; i++) {
+    omega[i] = (i+1) * 2;
+  }
 
   std::cout << "Off-chip memory initialization done\n";
 
   // Write input P2P ports
-  A.put(A_);
-  omega.put(omega_);
   M.put(M_);
 }
 
@@ -47,7 +44,14 @@ void tb::sink() {
   std::cout << "Testbench sink thread wait done\n";
   do {wait();} while (!finish.read());
 
-  // Copy off-chip memories back to shared memory
+  FILE* result_p = fopen("./result.bin", "wb");
+  int res[8];
+  for (unsigned i = 0; i < 8; i++) {
+    res[i] = (int)alloc_A_b[i];
+  }
+  fwrite(res, 4, 8, result_p);
+  fclose(result_p);
+
   std::cout << "Testbench normal turn off.\n";
   esc_stop();
 }

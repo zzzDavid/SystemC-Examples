@@ -6,10 +6,11 @@ SC_MODULE(dut)
   sc_out<bool> finish;
 
   // port definitions
-  cynw_p2p < sc_uint<32> >::in	A;
-  cynw_p2p < sc_uint<32> >::in	omega;
   cynw_p2p < sc_uint<32> >::in	M;
-  sc_uint<32>	alloc_A_b[8];
+
+  sc_uint<32> *A;
+  sc_uint<32>	*alloc_A_b;
+  sc_uint<32> *omega;
 
   sc_uint<32> size;
   sc_uint<32> half;
@@ -27,19 +28,17 @@ SC_MODULE(dut)
   void thread1();
 
   SC_HAS_PROCESS(dut);
-  dut(sc_module_name dut)
+  dut(sc_module_name dut, sc_uint<32> _A[8], sc_uint<32> _omega[4], sc_uint<32> _alloc_A_b[8])
   : clk( "clk" )
   , rst( "rst" )
   , M( "M" )
-  , A( "A" )
-  , omega( "omega" )
+  , A(_A)
+  , omega(_omega)
+  , alloc_A_b(_alloc_A_b)
   {
     SC_CTHREAD(thread1, clk.pos());
     reset_signal_is(rst, 0);
     M.clk_rst(clk, rst);
-    A.clk_rst(clk, rst);
-    omega.clk_rst(clk, rst);
   }
-
 };
 

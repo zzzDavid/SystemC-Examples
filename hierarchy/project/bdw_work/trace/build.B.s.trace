@@ -1,16 +1,12 @@
 make[3]: Nothing to be done for 'bdw_work/wrappers/dut_wrap.h'.
 make[3]: Nothing to be done for 'bdw_work/wrappers/find_max_wrap.h'.
 make[3]: Nothing to be done for 'bdw_work/wrappers/add_one_wrap.h'.
-Generating dependencies for dut.cc 
 bdw_wrapgen -project project.tcl -module dut "-Ibdw_work/wrappers   -g -DCLOCK_PERIOD=5.0 -D_GLIBCXX_USE_CXX11_ABI=0  "
 /opt/cadence/STRATUS202/bin/bdw_tracegen -module dut -vcd 
 /opt/cadence/STRATUS202/bin/bdw_shell /opt/cadence/STRATUS202/share/stratus/tcl/bdw_siminfo.tcl project.tcl B
 make[4]: Nothing to be done for 'bdw_work/wrappers/dut_wrap.h'.
 make[4]: Nothing to be done for 'bdw_work/wrappers/find_max_wrap.h'.
 make[4]: Nothing to be done for 'bdw_work/wrappers/add_one_wrap.h'.
-WARNING 02557: Module 'find_max' with representation 'RTL_V' cannot contain
-WARNING 02557.   module 'add_one' with representation 'BEH' in simConfig
-WARNING 02557.   'BASIC_V'
 /opt/cadence/STRATUS202/tools.lnx86/stratus/gcc/6.3/bin/g++  -I./ -Ibdw_work/wrappers     -c -g -DCLOCK_PERIOD=5.0 -D_GLIBCXX_USE_CXX11_ABI=0    -fPIC  -I/opt/cadence/STRATUS202/share/stratus/include -I/opt/cadence/STRATUS202/tools.lnx86/stratus/systemc/2.3.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0   -o bdw_work/sims/B/dut.o  bdw_work/wrappers/dut_wrap.cc
 /opt/cadence/STRATUS202/tools.lnx86/stratus/gcc/6.3/bin/g++ -Wl,--export-dynamic   \
         -Wl,-rpath,/opt/cadence/STRATUS202/tools.lnx86/stratus/lib/64bit \

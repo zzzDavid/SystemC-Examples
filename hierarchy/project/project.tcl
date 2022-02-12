@@ -80,6 +80,8 @@ define_hls_module	dut	dut.cc		;# SystemC module to be synthesized
 define_hls_module	find_max	find_max.cc		;# SystemC module to be synthesized
 define_hls_module	add_one	add_one.cc		;# SystemC module to be synthesized
 define_hls_config	dut	BASIC		;# A synthesis configuration of the hls_module
+define_hls_config	find_max	BASIC		;# A synthesis configuration of the hls_module
+define_hls_config	add_one	BASIC		;# A synthesis configuration of the hls_module
 # set_logic_synthesis_options {BDW_LS_NOTOUCH_ALL};
 
 ## External array access
@@ -88,15 +90,15 @@ define_hls_config	dut	BASIC		;# A synthesis configuration of the hls_module
 #
 # Simulation Configurations
 #
-define_sim_config B			{dut BEH}			;# A behavioral PIN-level configuration
+define_sim_config B			{dut BEH} {find_max BEH} {add_one BEH}			;# A behavioral PIN-level configuration
 define_sim_config BASIC_V	{dut RTL_V BASIC}	;# RTL Verilog cosimulation
 
 #
 # Power Configurations
-foreach config [find -hls_config *] {
-    set cname [get_attr name $config]
-    define_power_config P_${cname} ${cname}_V -module dut
-}
+# foreach config [find -hls_config *] {
+#     set cname [get_attr name $config]
+#     define_power_config P_${cname} ${cname}_V -module dut
+# }
 
 #
 # Genus Logic Synthesis Configuration

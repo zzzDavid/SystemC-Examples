@@ -1,12 +1,12 @@
-36928
-36945
+12367
+12384
 zhang-x1.ece.cornell.edu
 bdw_work/trace/build.B.s.trace
 2
 0
 0
 0
-1644685439
-1644685454
+1644687143
+1644687157
 make --no-print-directory -f Makefile CWBExec_build=1 build_B_sub
 

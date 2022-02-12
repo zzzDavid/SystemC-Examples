@@ -6,7 +6,7 @@
 	<uname>Linux 3.10.0-1160.49.1.el7.x86_64 x86_64</uname>
 	<cwd>/work/shared/users/phd/nz264/systemc-examples/hierarchy/project</cwd>
 	<user>nz264</user>
-	<gen_time>Sat Feb 12 12:04:16 2022</gen_time>
+	<gen_time>Sat Feb 12 12:32:39 2022</gen_time>
 	<module_inst>
 		<module_name>dut</module_name>
 		<inst_path>system.dut_wrapper</inst_path>
@@ -22,6 +22,6 @@
 		<inst_path>system.dut_wrapper.dut.find_max.find_max.add_one</inst_path>
 		<representation>BEH</representation>
 	</module_inst>
-	<end_time>Sat Feb 12 12:04:16 2022</end_time>
+	<end_time>Sat Feb 12 12:32:39 2022</end_time>
 	<passed>0</passed>
 </tool_log>
