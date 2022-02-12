@@ -33,6 +33,7 @@ bdw_work/sims/B/dut.o :  dut.cc \
  /opt/cadence/STRATUS202/share/stratus/include/esc_elab.h \
  /opt/cadence/STRATUS202/share/stratus/include/esc_cleanup.h \
  /opt/cadence/STRATUS202/share/stratus/include/cynw_comm_util.h \
+ bdw_work/wrappers/find_max_wrap.h \
 
 bdw_work/sims/B/dut.d :  dut.cc \
  dut.h \

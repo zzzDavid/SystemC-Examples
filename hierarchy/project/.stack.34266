@@ -1,0 +1,45 @@
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+warning: no loadable sections found in added symbol-file system-supplied DSO at 0x7fff7bb9d000
+0x00002ad7f729c60c in waitpid () from /lib64/libc.so.6
+#0  0x00002ad7f729c60c in waitpid () from /lib64/libc.so.6
+#1  0x00002ad7f7219f62 in do_system () from /lib64/libc.so.6
+#2  0x00002ad7f5b25b66 in dumpStack () from /opt/cadence/STRATUS202/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#3  0x00002ad7f5a178c6 in msgAbortChk () from /opt/cadence/STRATUS202/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#4  0x0000000000421ac8 in edg::stratus_finish_msg(edg::a_diagnostic*) ()
+#5  0x0000000000422d9c in edg::wrap_up_diagnostic(edg::a_diagnostic*) ()
+#6  0x0000000000427e6b in edg::file_open_error(edg::an_error_severity, edg::an_error_code, char const*, edg::an_open_file_result*) ()
+#7  0x00000000004bc81b in edg::open_file_for_input(char const*, int, int, int, int, int, int, int, char const**, char const**, _IO_FILE**, int*, edg::a_unicode_source_kind_tag*, edg::a_directory_name_entry**) ()
+#8  0x00000000004bcf16 in edg::open_file_and_push_input_stack(char const*, int, int, int, int, int, int, int, int, int*) ()
+#9  0x00000000005616e7 in edg::proc_include(int, int*) ()
+#10 0x0000000000563620 in edg::pp_directive() ()
+#11 0x00000000004c4cd6 in edg::get_token() ()
+#12 0x000000000070c221 in edg::scan_nonmember_declaration(edg::a_decl_parse_state*, edg::a_source_range*) ()
+#13 0x000000000070a76b in edg::declaration(int, int, int, int, edg::a_param_id*, edg::a_source_range*) ()
+#14 0x000000000070f61d in edg::translation_unit() ()
+#15 0x00000000005dd7c3 in edg::process_translation_unit(char const*, int, edg::an_exported_template_file*) ()
+#16 0x000000000040af69 in main ()
+$1 = 0
+$2 = 0
+#0  0x00002ad7f729c60c in waitpid () from /lib64/libc.so.6
+#1  0x00002ad7f7219f62 in do_system () from /lib64/libc.so.6
+#2  0x00002ad7f5b25b66 in dumpStack () from /opt/cadence/STRATUS202/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#3  0x00002ad7f5a178c6 in msgAbortChk () from /opt/cadence/STRATUS202/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#4  0x0000000000421ac8 in edg::stratus_finish_msg(edg::a_diagnostic*) ()
+#5  0x0000000000422d9c in edg::wrap_up_diagnostic(edg::a_diagnostic*) ()
+#6  0x0000000000427e6b in edg::file_open_error(edg::an_error_severity, edg::an_error_code, char const*, edg::an_open_file_result*) ()
+#7  0x00000000004bc81b in edg::open_file_for_input(char const*, int, int, int, int, int, int, int, char const**, char const**, _IO_FILE**, int*, edg::a_unicode_source_kind_tag*, edg::a_directory_name_entry**) ()
+#8  0x00000000004bcf16 in edg::open_file_and_push_input_stack(char const*, int, int, int, int, int, int, int, int, int*) ()
+#9  0x00000000005616e7 in edg::proc_include(int, int*) ()
+#10 0x0000000000563620 in edg::pp_directive() ()
+#11 0x00000000004c4cd6 in edg::get_token() ()
+#12 0x000000000070c221 in edg::scan_nonmember_declaration(edg::a_decl_parse_state*, edg::a_source_range*) ()
+#13 0x000000000070a76b in edg::declaration(int, int, int, int, edg::a_param_id*, edg::a_source_range*) ()
+#14 0x000000000070f61d in edg::translation_unit() ()
+#15 0x00000000005dd7c3 in edg::process_translation_unit(char const*, int, edg::an_exported_template_file*) ()
+#16 0x000000000040af69 in main ()
+A debugging session is active.
+
+	Inferior 1 [process 34266] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

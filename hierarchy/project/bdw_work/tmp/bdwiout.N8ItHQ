@@ -1,0 +1,13 @@
+
+bdw_extract 20.21-s100  (94349.142211)
+Copyright (c) 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+              #################################################################
+              #                                                               #
+  FATAL 00696:# Unable to continue. Received signal, Interrupt.               #
+              #                                                               #
+              #################################################################
+
+
+bdw_extract failed with 1 error and 0 warnings.
+

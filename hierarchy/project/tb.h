@@ -7,19 +7,20 @@ SC_MODULE(tb)
   sc_out<bool>	rst;
   sc_in<bool>	finish;
 
-  // p2p ports
-  cynw_p2p<sc_int<32>>::base_out	B;
-  cynw_p2p<sc_int<32>>::base_in	D;
+  sc_int<32> *A;
+  sc_int<32> *B;
+  sc_int<32> *D;
 
   // memories
 
   SC_HAS_PROCESS(tb);
-  tb( sc_module_name name)
+  tb( sc_module_name name, sc_int<32> _A[10], sc_int<32> _B[10], sc_int<32> _D[10])
   : clk("clk")
   , rst("rst")
   , finish("finish")
-  , B("B")
-  , D("D")
+  , A(_A)
+  , B(_B)
+  , D(_D)
   {
     SC_CTHREAD(source, clk.pos());
     SC_CTHREAD(sink, clk.pos());

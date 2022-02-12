@@ -1,0 +1,98 @@
+
+bdw_extract 20.21-s100  (94349.142211)
+Copyright (c) 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+              #################################################################
+              #                                                               #
+  ERROR 90359:# at add_one.h line 21 col 5                                    #
+  ERROR 90359.#   member "add_one::_top_add_one_x" has already been initialized #
+  ERROR 90359.#       , _top_add_one_x( "_top_add_one_return" ) // BUG        #
+  ERROR 90359.#         ^                                                     #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90044:# at find_max.h line 33 col 5                                   #
+  ERROR 90044.#   expression must have pointer type                           #
+  ERROR 90044.#         _top_find_max_A->clk_rst(clk, rst); // BUG            #
+  ERROR 90044.#         ^                                                     #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90044:# at find_max.h line 34 col 5                                   #
+  ERROR 90044.#   expression must have pointer type                           #
+  ERROR 90044.#         _top_find_max_B->clk_rst(clk, rst);                   #
+  ERROR 90044.#         ^                                                     #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90044:# at find_max.h line 35 col 5                                   #
+  ERROR 90044.#   expression must have pointer type                           #
+  ERROR 90044.#         _top_find_max_x->clk_rst(clk, rst);                   #
+  ERROR 90044.#         ^                                                     #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90044:# at find_max.h line 36 col 5                                   #
+  ERROR 90044.#   expression must have pointer type                           #
+  ERROR 90044.#         _top_find_max_return->clk_rst(clk, rst);              #
+  ERROR 90044.#         ^                                                     #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90349:# at dut.cc line 17 col 63                                      #
+  ERROR 90349.#   no operator "[]" matches these operands                     #
+  ERROR 90349.#   operand types are: cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
+  ERROR 90349.#           C[x] = ((sc_int<32>)(((sc_int<64>)A[x]) * ((sc_int<64>)B[x]))); #
+  ERROR 90349.#                                                                   ^ #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90289:# at dut.cc line 20 col 22                                      #
+  ERROR 90289.#   no instance of constructor "find_max::find_max" matches the argument list #
+  ERROR 90289.#   argument types are: (sc_dt::sc_int<32> [10], cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN>, sc_dt::sc_int<32>) #
+  ERROR 90289.#           compute0[x1] = find_max(A, B, x1);                  #
+  ERROR 90289.#                          ^                                    #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90349:# at dut.cc line 23 col 8                                       #
+  ERROR 90349.#   no operator "[]" matches these operands                     #
+  ERROR 90349.#   operand types are: cynw::cynw_p2p_out<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
+  ERROR 90349.#           D[x2] = ((sc_int<32>)(((sc_int<34>)(((sc_int<33>)C[x2]) + ((sc_int<33>)compute0[x2]))) + ((sc_int<34>)B[x2]))); #
+  ERROR 90349.#            ^                                                  #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90349:# at dut.cc line 23 col 110                                     #
+  ERROR 90349.#   no operator "[]" matches these operands                     #
+  ERROR 90349.#   operand types are: cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
+  ERROR 90349.#           D[x2] = ((sc_int<32>)(((sc_int<34>)(((sc_int<33>)C[x2]) + ((sc_int<33>)compute0[x2]))) + ((sc_int<34>)B[x2]))); #
+  ERROR 90349.#                                                                                                                  ^ #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  FATAL 00696:# Unable to continue. Received signal, Interrupt.               #
+              #                                                               #
+              #################################################################
+
+
+bdw_extract failed with 10 errors and 0 warnings.
+

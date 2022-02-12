@@ -1,0 +1,68 @@
+
+bdw_extract 20.21-s100  (94349.142211)
+Copyright (c) 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+              #################################################################
+              #                                                               #
+  ERROR 90044:# at find_max.h line 33 col 5                                   #
+  ERROR 90044.#   expression must have pointer type                           #
+  ERROR 90044.#         _top_find_max_A->clk_rst(clk, rst); // BUG            #
+  ERROR 90044.#         ^                                                     #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90044:# at find_max.h line 34 col 5                                   #
+  ERROR 90044.#   expression must have pointer type                           #
+  ERROR 90044.#         _top_find_max_B->clk_rst(clk, rst);                   #
+  ERROR 90044.#         ^                                                     #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90044:# at find_max.h line 35 col 5                                   #
+  ERROR 90044.#   expression must have pointer type                           #
+  ERROR 90044.#         _top_find_max_x->clk_rst(clk, rst);                   #
+  ERROR 90044.#         ^                                                     #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90044:# at find_max.h line 36 col 5                                   #
+  ERROR 90044.#   expression must have pointer type                           #
+  ERROR 90044.#         _top_find_max_return->clk_rst(clk, rst);              #
+  ERROR 90044.#         ^                                                     #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90289:# at find_max.cc line 14 col 14                                 #
+  ERROR 90289.#   no instance of constructor "add_one::add_one" matches the argument list #
+  ERROR 90289.#   argument types are: (cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN>, cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN>) #
+  ERROR 90289.#           return add_one(_top_find_max_A, _top_find_max_x);   #
+  ERROR 90289.#                  ^                                            #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  ERROR 90120:# at find_max.cc line 16 col 20                                 #
+  ERROR 90120.#   return value type does not match the function type          #
+  ERROR 90120.#           return       _top_find_max_B.get();                 #
+  ERROR 90120.#                        ^                                      #
+              #                                                               #
+              #################################################################
+
+              #################################################################
+              #                                                               #
+  FATAL 00696:# Unable to continue. Received signal, Interrupt.               #
+              #                                                               #
+              #################################################################
+
+
+bdw_extract failed with 7 errors and 0 warnings.
+

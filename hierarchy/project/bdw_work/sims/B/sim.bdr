@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<tool_log>
+	<tool_kind>LogicSimulator</tool_kind>
+	<tool_name>OSCI</tool_name>
+	<hostname>zhang-x1.ece.cornell.edu</hostname>
+	<uname>Linux 3.10.0-1160.49.1.el7.x86_64 x86_64</uname>
+	<cwd>/work/shared/users/phd/nz264/systemc-examples/hierarchy/project</cwd>
+	<user>nz264</user>
+	<gen_time>Sat Feb 12 12:04:16 2022</gen_time>
+	<module_inst>
+		<module_name>dut</module_name>
+		<inst_path>system.dut_wrapper</inst_path>
+		<representation>BEH</representation>
+	</module_inst>
+	<module_inst>
+		<module_name>find_max</module_name>
+		<inst_path>system.dut_wrapper.dut.find_max</inst_path>
+		<representation>BEH</representation>
+	</module_inst>
+	<module_inst>
+		<module_name>add_one</module_name>
+		<inst_path>system.dut_wrapper.dut.find_max.find_max.add_one</inst_path>
+		<representation>BEH</representation>
+	</module_inst>
+	<end_time>Sat Feb 12 12:04:16 2022</end_time>
+	<passed>0</passed>
+</tool_log>

@@ -76,6 +76,9 @@ define_system_module	tb	tb.cc			;# SystemC module for simulation only
 # Synthesis Module Configurations
 #
 define_hls_module	dut	dut.cc		;# SystemC module to be synthesized
+# BUG
+define_hls_module	find_max	find_max.cc		;# SystemC module to be synthesized
+define_hls_module	add_one	add_one.cc		;# SystemC module to be synthesized
 define_hls_config	dut	BASIC		;# A synthesis configuration of the hls_module
 # set_logic_synthesis_options {BDW_LS_NOTOUCH_ALL};
 

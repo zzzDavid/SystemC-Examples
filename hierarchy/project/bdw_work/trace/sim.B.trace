@@ -1,191 +1,49 @@
-Generating dependencies for tb.cc
-Generating dependencies for system.cc
-Generating dependencies for main.cc
+make[3]: Nothing to be done for 'bdw_work/wrappers/dut_wrap.h'.
+make[3]: Nothing to be done for 'bdw_work/wrappers/find_max_wrap.h'.
+make[3]: Nothing to be done for 'bdw_work/wrappers/add_one_wrap.h'.
 Generating dependencies for dut.cc 
 bdw_wrapgen -project project.tcl -module dut "-Ibdw_work/wrappers   -g -DCLOCK_PERIOD=5.0 -D_GLIBCXX_USE_CXX11_ABI=0  "
-              #################################################################
-              #                                                               #
-  ERROR 02512:# Error importing SystemC modules from file 'dut.cc':           #
-              #                                                               #
-              #################################################################
-
-bdw_extract 20.21-s100  (94349.142211)
-Copyright (c) 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
-
-              #################################################################
-              #                                                               #
-  ERROR 90020:# at dut.h line 14 col 3                                        #
-  ERROR 90020.#   identifier "find_max" is undefined                          #
-  ERROR 90020.#       find_max  find_max_inst;                                #
-  ERROR 90020.#       ^                                                       #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90349:# at dut.cc line 17 col 63                                      #
-  ERROR 90349.#   no operator "[]" matches these operands                     #
-  ERROR 90349.#   operand types are: cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
-  ERROR 90349.#           C[x] = ((sc_int<32>)(((sc_int<64>)A[x]) * ((sc_int<64>)B[x]))); #
-  ERROR 90349.#                                                                   ^ #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90020:# at dut.cc line 20 col 22                                      #
-  ERROR 90020.#   identifier "find_max" is undefined                          #
-  ERROR 90020.#           compute0[x1] = find_max(A, B, x1);                  #
-  ERROR 90020.#                          ^                                    #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90349:# at dut.cc line 23 col 8                                       #
-  ERROR 90349.#   no operator "[]" matches these operands                     #
-  ERROR 90349.#   operand types are: cynw::cynw_p2p_out<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
-  ERROR 90349.#           D[x2] = ((sc_int<32>)(((sc_int<34>)(((sc_int<33>)C[x2]) + ((sc_int<33>)compute0[x2]))) + ((sc_int<34>)B[x2]))); #
-  ERROR 90349.#            ^                                                  #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90349:# at dut.cc line 23 col 110                                     #
-  ERROR 90349.#   no operator "[]" matches these operands                     #
-  ERROR 90349.#   operand types are: cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
-  ERROR 90349.#           D[x2] = ((sc_int<32>)(((sc_int<34>)(((sc_int<33>)C[x2]) + ((sc_int<33>)compute0[x2]))) + ((sc_int<34>)B[x2]))); #
-  ERROR 90349.#                                                                                                                  ^ #
-              #                                                               #
-              #################################################################
+/opt/cadence/STRATUS202/bin/bdw_tracegen -module dut -vcd 
+/opt/cadence/STRATUS202/bin/bdw_shell /opt/cadence/STRATUS202/share/stratus/tcl/bdw_siminfo.tcl project.tcl B
+make[4]: Nothing to be done for 'bdw_work/wrappers/dut_wrap.h'.
+make[4]: Nothing to be done for 'bdw_work/wrappers/find_max_wrap.h'.
+make[4]: Nothing to be done for 'bdw_work/wrappers/add_one_wrap.h'.
+WARNING 02557: Module 'find_max' with representation 'RTL_V' cannot contain
+WARNING 02557.   module 'add_one' with representation 'BEH' in simConfig
+WARNING 02557.   'BASIC_V'
+/opt/cadence/STRATUS202/tools.lnx86/stratus/gcc/6.3/bin/g++  -I./ -Ibdw_work/wrappers     -c -g -DCLOCK_PERIOD=5.0 -D_GLIBCXX_USE_CXX11_ABI=0    -fPIC  -I/opt/cadence/STRATUS202/share/stratus/include -I/opt/cadence/STRATUS202/tools.lnx86/stratus/systemc/2.3.3/include  -DBDW_HUB=1    -DBDW_USE_SCV=0   -o bdw_work/sims/B/dut.o  bdw_work/wrappers/dut_wrap.cc
+/opt/cadence/STRATUS202/tools.lnx86/stratus/gcc/6.3/bin/g++ -Wl,--export-dynamic   \
+        -Wl,-rpath,/opt/cadence/STRATUS202/tools.lnx86/stratus/lib/64bit \
+        -Wl,-rpath,/opt/cadence/STRATUS202/tools.lnx86/lib/64bit \
+        -Wl,-rpath,/opt/cadence/STRATUS202/tools.lnx86/stratus/systemc/2.3.3/lib-linux64 \
+	-o bdw_work/sims/B/sim_B \
+	bdw_work/sims/B/dut.o bdw_work/sims/B/find_max.o bdw_work/sims/B/add_one.o bdw_work/sims/B/main.o bdw_work/sims/B/system.o bdw_work/sims/B/tb.o  \
+	 \
+	 \
+        bdw_work/libesc/libesc.a \
+	 \
+	-L /opt/cadence/STRATUS202/tools.lnx86/lib/64bit -L /opt/cadence/STRATUS202/tools.lnx86/stratus/lib/64bit  -L /opt/cadence/STRATUS202/tools.lnx86/stratus/systemc/2.3.3/lib-linux64 -lscv -lsystemc  -lhubexec -lhub  -lbdw_st  
+make --no-print-directory -f Makefile scsim_B
+WARNING 02557: Module 'find_max' with representation 'RTL_V' cannot contain
+WARNING 02557.   module 'add_one' with representation 'BEH' in simConfig
+WARNING 02557.   'BASIC_V'
+Executing simulation: bdw_work/sims/B/sim_B  
 
 
-bdw_extract failed with 5 errors and 0 warnings.
+        SystemC 2.3.3-Accellera --- Apr 15 2020 17:11:39
+        Copyright (c) 1996-2018 by all Contributors,
+        ALL RIGHTS RESERVED
+NOTE: Cadence Design Systems Hub Simulation Platform : version 20.21-s100
 
-bdw_wrapgen -project project.tcl -module dut "-Ibdw_work/wrappers   -g -DCLOCK_PERIOD=5.0 -D_GLIBCXX_USE_CXX11_ABI=0  "
-              #################################################################
-              #                                                               #
-  ERROR 02512:# Error importing SystemC modules from file 'dut.cc':           #
-              #                                                               #
-              #################################################################
+Info: (I703) tracing timescale unit set: 1 ps (bdw_work/sims/B/systemc.vcd)
 
-bdw_extract 20.21-s100  (94349.142211)
-Copyright (c) 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
-
-              #################################################################
-              #                                                               #
-  ERROR 90020:# at dut.h line 14 col 3                                        #
-  ERROR 90020.#   identifier "find_max" is undefined                          #
-  ERROR 90020.#       find_max  find_max_inst;                                #
-  ERROR 90020.#       ^                                                       #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90349:# at dut.cc line 17 col 63                                      #
-  ERROR 90349.#   no operator "[]" matches these operands                     #
-  ERROR 90349.#   operand types are: cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
-  ERROR 90349.#           C[x] = ((sc_int<32>)(((sc_int<64>)A[x]) * ((sc_int<64>)B[x]))); #
-  ERROR 90349.#                                                                   ^ #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90020:# at dut.cc line 20 col 22                                      #
-  ERROR 90020.#   identifier "find_max" is undefined                          #
-  ERROR 90020.#           compute0[x1] = find_max(A, B, x1);                  #
-  ERROR 90020.#                          ^                                    #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90349:# at dut.cc line 23 col 8                                       #
-  ERROR 90349.#   no operator "[]" matches these operands                     #
-  ERROR 90349.#   operand types are: cynw::cynw_p2p_out<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
-  ERROR 90349.#           D[x2] = ((sc_int<32>)(((sc_int<34>)(((sc_int<33>)C[x2]) + ((sc_int<33>)compute0[x2]))) + ((sc_int<34>)B[x2]))); #
-  ERROR 90349.#            ^                                                  #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90349:# at dut.cc line 23 col 110                                     #
-  ERROR 90349.#   no operator "[]" matches these operands                     #
-  ERROR 90349.#   operand types are: cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
-  ERROR 90349.#           D[x2] = ((sc_int<32>)(((sc_int<34>)(((sc_int<33>)C[x2]) + ((sc_int<33>)compute0[x2]))) + ((sc_int<34>)B[x2]))); #
-  ERROR 90349.#                                                                                                                  ^ #
-              #                                                               #
-              #################################################################
-
-
-bdw_extract failed with 5 errors and 0 warnings.
-
-bdw_wrapgen -project project.tcl -module dut "-Ibdw_work/wrappers   -g -DCLOCK_PERIOD=5.0 -D_GLIBCXX_USE_CXX11_ABI=0  "
-              #################################################################
-              #                                                               #
-  ERROR 02512:# Error importing SystemC modules from file 'dut.cc':           #
-              #                                                               #
-              #################################################################
-
-bdw_extract 20.21-s100  (94349.142211)
-Copyright (c) 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
-
-              #################################################################
-              #                                                               #
-  ERROR 90020:# at dut.h line 14 col 3                                        #
-  ERROR 90020.#   identifier "find_max" is undefined                          #
-  ERROR 90020.#       find_max  find_max_inst;                                #
-  ERROR 90020.#       ^                                                       #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90349:# at dut.cc line 17 col 63                                      #
-  ERROR 90349.#   no operator "[]" matches these operands                     #
-  ERROR 90349.#   operand types are: cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
-  ERROR 90349.#           C[x] = ((sc_int<32>)(((sc_int<64>)A[x]) * ((sc_int<64>)B[x]))); #
-  ERROR 90349.#                                                                   ^ #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90020:# at dut.cc line 20 col 22                                      #
-  ERROR 90020.#   identifier "find_max" is undefined                          #
-  ERROR 90020.#           compute0[x1] = find_max(A, B, x1);                  #
-  ERROR 90020.#                          ^                                    #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90349:# at dut.cc line 23 col 8                                       #
-  ERROR 90349.#   no operator "[]" matches these operands                     #
-  ERROR 90349.#   operand types are: cynw::cynw_p2p_out<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
-  ERROR 90349.#           D[x2] = ((sc_int<32>)(((sc_int<34>)(((sc_int<33>)C[x2]) + ((sc_int<33>)compute0[x2]))) + ((sc_int<34>)B[x2]))); #
-  ERROR 90349.#            ^                                                  #
-              #                                                               #
-              #################################################################
-
-              #################################################################
-              #                                                               #
-  ERROR 90349:# at dut.cc line 23 col 110                                     #
-  ERROR 90349.#   no operator "[]" matches these operands                     #
-  ERROR 90349.#   operand types are: cynw::cynw_p2p_in<sc_dt::sc_int<32>, CYN::PIN> [ sc_dt::sc_int<32> ] #
-  ERROR 90349.#           D[x2] = ((sc_int<32>)(((sc_int<34>)(((sc_int<33>)C[x2]) + ((sc_int<33>)compute0[x2]))) + ((sc_int<34>)B[x2]))); #
-  ERROR 90349.#                                                                                                                  ^ #
-              #                                                               #
-              #################################################################
-
-
-bdw_extract failed with 5 errors and 0 warnings.
-
-make[4]: *** No rule to make target 'bdw_work/wrappers/dut.updated', needed by 'bdw_work/wrappers/dut_wrap.h'.  Stop.
-make[3]: *** [Makefile.prj:508: bdw_prebuild_wrappers] Error 2
-make[2]: *** [Makefile.prj:730: build_B_sub] Error 2
-make[1]: *** [Makefile.prj:744: build_B_sub] Error 2
+Error: (E109) complete binding failed: port not bound: port 'system.dut_wrapper.find_max_return_in_data' (sc_in)
+In file: ../../../src/sysc/communication/sc_port.cpp:235
+WARNING: exit status = 1
+BDW_SIM_CONFIG_DIR=bdw_work/sims/B make cmp_result 2>&1 | tee -a bdw_work/sims/B/bdw_sim.log
+****************************************
+Sat Feb 12 12:04:17 EST 2022
+ERROR: Simulation output doesn't exist
+for B Simulation...
+  B: SIMULATION FAILED
+****************************************

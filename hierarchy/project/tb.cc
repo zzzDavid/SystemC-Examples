@@ -12,9 +12,6 @@
 void tb::source() {
   std::cout << "Testbench source thread starts\n";
 
-  // P2P port reset
-  B.reset();
-  D.reset();
 
   // Generate reset signal
   rst.write(0);
@@ -23,18 +20,23 @@ void tb::source() {
   wait();
 
   // read p2p ports from shared_memory
+  sc_int<32> *A_arg = (sc_int<32> *)shmat(163871, nullptr, 0);
+  for (unsigned i = 0; i < 10; i++) {
+    A[i] = A_arg[i];
+  }
   sc_int<32> *B_arg = (sc_int<32> *)shmat(163872, nullptr, 0);
-  sc_int<32> B_ = B_arg[0];
+  for (unsigned i = 0; i < 10; i++) {
+    B[i] = B_arg[i];
+  }  
   sc_int<32> *D_arg = (sc_int<32> *)shmat(163873, nullptr, 0);
-  sc_int<32> D_ = D_arg[0];
-
+  for (unsigned i = 0; i < 10; i++) {
+    D[i] = D_arg[i];
+  }
   // read off-chip memories from shared memory
 
   std::cout << "Off-chip memory initialization done\n";
 
   // Write input P2P ports
-  B.put(B_);
-  D.put(D_);
 }
 
 void tb::sink() {

@@ -1,0 +1,17 @@
+
+        SystemC 2.3.3-Accellera --- Apr 15 2020 17:11:39
+        Copyright (c) 1996-2018 by all Contributors,
+        ALL RIGHTS RESERVED
+NOTE: Cadence Design Systems Hub Simulation Platform : version 20.21-s100
+
+Info: (I703) tracing timescale unit set: 1 ps (bdw_work/sims/B/systemc.vcd)
+
+Error: (E109) complete binding failed: port not bound: port 'system.dut_wrapper.find_max_return_in_data' (sc_in)
+In file: ../../../src/sysc/communication/sc_port.cpp:235
+WARNING: exit status = 1
+****************************************
+Sat Feb 12 12:04:17 EST 2022
+ERROR: Simulation output doesn't exist
+for B Simulation...
+  B: SIMULATION FAILED
+****************************************

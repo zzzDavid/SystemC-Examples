@@ -1,12 +1,12 @@
-697
-714
+36829
+36849
 zhang-x1.ece.cornell.edu
 bdw_work/trace/sim.B.trace
 2
-2
 0
 0
-1644616831
-1644616847
+0
+1644685439
+1644685458
 make --no-print-directory -f Makefile CWBExec_sim=1 sim_B
 

@@ -3,12 +3,15 @@ void add_one::thread1()
 {
   {
     HLS_DEFINE_PROTOCOL("reset");
-    _top_add_one_A.reset();
-    _top_add_one_x.reset();
+    add_one_x.reset();
+    add_one_return.reset(); // BUG
     wait();
   }
   while( true ) 
   {
-    return (    _top_add_one_A.get() + 1);
+    // BUG
+    sc_int<32> x = add_one_x.get();
+    // return (    value + 1);
+    add_one_return.put(A[x] + 1);
   }
 }
